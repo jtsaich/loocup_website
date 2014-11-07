@@ -66,17 +66,46 @@
                     <span id="wefeel" class="description-wrapper center-block text-center">We feel you</span>
                 </div>
             	<div class="col-xs-12 col-sm-4">
-                    <img id="monster1" class="monsters center-block" src="images/monster1.png" />
-                    <span id="monster1-text" class="monsters-text1 text-center center-block">Not Enought Time to Plan</span>
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <img class="center-block monsters" src="images/monster1.png" />
+                                <span class="monsters-text1 text-center center-block">Not Enought Time to Plan</span>
+                            </div>
+                            <div class="back">
+                                <img class="center-block monsters" src="images/happymonster1.png" />
+                                <span class="monsters-text1 text-center center-block">Sustained Friendship</span>
+                            </div>
+                        </div>
+                    </div>
     	        </div>
-
                 <div class="col-xs-12 col-sm-4">
-                    <img id="monster2" class="monsters center-block" src="images/monster2.png" />
-                    <span id="monster2-text" class="monsters-text2 text-center center-block">No hobby Buddies</span>
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <img class="center-block monsters" src="images/monster2.png" />
+                                <span class="monsters-text2 text-center center-block">No hobby Buddies</span>
+                            </div>
+                            <div class="back">
+                                <img class="center-block monsters" src="images/happymonster2.png" />
+                                <span class="monsters-text2 text-center center-block">New Best Friend</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    <img id="monster3" class="monsters center-block" src="images/monster3.png" />
-                    <span id="monster3-text" class="monsters-text3 text-center center-block">Too Much Online Socializing</span>
+                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div class="flipper">
+                            <div class="front">
+                                <img class="center-block monsters" src="images/monster3.png" />
+                                <span class="monsters-text3 text-center center-block">Too Much Online Socializing</span>
+                            </div>
+                            <div class="back">
+                                <img class="center-block monsters" src="images/happymonster3.png" />
+                                <span class="monsters-text3 text-center center-block">Happy and Real</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -139,7 +168,7 @@
 
         <div class="feature-section feature-section-bot">
             <div class="container">
-                <div class="description-wrapper col-xs-12">
+                <div class="col-xs-12 description-wrapper ">
                     <span class="text-center center-block">Journalize your friendship</span>
                 </div>
                 <div class="col-xs-12 col-md-4 center-block">
@@ -164,7 +193,7 @@
                     </div>
                     <div class="col-xs-12">
                         <div class="center-block faces-wrapper">
-                            <img href="#" data-order="0" class="img-circle face" id="face1" src="images/profiles/melissa.png"><img href="#" data-order="1" class="img-circle face selected" id="face2" src="images/profiles/joey.png"><img href="#" data-order="2" class="img-circle face" id="face3" src="images/profiles/olivier.jpg">
+                            <img href="#" class="img-circle face" src="images/profiles/melissa.png"><img href="#" class="img-circle face selected" src="images/profiles/joey.png"><img href="#" class="img-circle face" src="images/profiles/olivier.jpg">
                         </div >
                     </div>
                 </div>
@@ -175,7 +204,7 @@
         <div class="bottom-email-section">
             <div class="container">
                 <div class="col-xs-12">
-                    <span class="text-center center-block socialize">A New Way To Socialize</span>
+                    <span class="text-center center-block description-wrapper">A New Way To Socialize</span>
                     <h3 class="text-center">Participate in our beta launch</h3>
 
                     <!-- Begin MailChimp Signup Form -->
@@ -199,8 +228,8 @@
 
 
         <footer>
-            <a target="_blank" href="https://twitter.com/tweetloocup"><img class="social-icon" src="images/twitter1.png" /></a>
-            <a target="_blank" href="https://www.facebook.com/loocupapp?ref=bookmarks"><img class="social-icon" src="images/facebook1.png" /></a>
+            <a target="_blank" href="https://twitter.com/tweetloocup"><img class="social-icon" src="images/twitter.png" /></a>
+            <a target="_blank" href="https://www.facebook.com/loocupapp?ref=bookmarks"><img class="social-icon" src="images/facebook.png" /></a>
         </footer>
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -243,12 +272,17 @@
             });
 
             var feelTextArr = ['We feel you', 'Let us help'];
-            var monsterTextArr = ['Not Enought Time to Plan', 'No hobby Buddies', 'Too Much Online Socializing'];
-            var happyMonsterTextArr = ['Sustained Friendship', 'New Best Friend', 'Happy and Real'];
-            var testomonialArr = ['"I am now able to catch up with my friends despite my crazy schedule"', '"I finally have a place to journalize what I do with my friends in a fun way"', '"I have made several new friends whom I now play tennis with"'];
-            var authorArr= ['Melissa Minh Hoang','Joey Chemis','Olivier Fontenelle'];
+            var monsterTextArr = [
+                'Not Enought Time to Plan', 
+                'No hobby Buddies', 
+                'Too Much Online Socializing'
+            ];
+            var happyMonsterTextArr = [
+                'Sustained Friendship', 
+            ];
+
             $(document).ready(function(){
-                $(".monsters").css('cursor','url(images/logo1.png),auto');
+                $(".monsters").css('cursor','url(images/cursor.png),auto');
             });
 
             $('#monster1').mouseover(function() {
@@ -287,24 +321,33 @@
                 $('#wefeel').text(feelTextArr[0]);
             });
 
-            $('#face1').click(function() {
-                $("#quote").text(testomonialArr[2]);
-                $("#author").text(authorArr[0]);
-            });
+            var testomonialArr = [
+                '"I finally have a place to journalize what I do with my friends in a fun way"', 
+                '"I have made several new friends whom I now play tennis with"',
+                '"I am now able to catch up with my friends despite my crazy schedule"'
+            ];
+            var authorArr= [
+                'Melissa Minh Hoang',
+                'Joey Chemis',
+                'Olivier Fontenelle'
+            ];
 
-            $('#face2').click(function() {
-                $("#quote").text(testomonialArr[0]);
-                $("#author").text(authorArr[1]);
-            });
+            var clickFace = function(i) {
+                $("#quote").fadeTo('fast', 0, function() {
+                    $(this).text(testomonialArr[i]);
+                });
+                $("#author").fadeTo('fast', 0, function() {
+                    $(this).text(authorArr[i]);
+                });
 
-            $('#face3').click(function() {
-                $("#quote").text(testomonialArr[1]);
-                $("#author").text(authorArr[2]);
-            });
+                $("#quote").fadeTo('slow', 1);
+                $("#author").fadeTo('fast', 1);
+            };
 
             $('.face').click(function() {
                 $('.face').removeClass('selected');
                 $(this).addClass('selected');
+                clickFace($(this).index());
             });
 
         </script>
