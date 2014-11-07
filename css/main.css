@@ -1,0 +1,345 @@
+body {
+	font-family: 'din-light', sans-serif;
+	font-weight: 800px;
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 5px;
+	color: #00b4e4;;
+    margin-top: 4px;
+    font-size: 35px;
+}
+
+.navbar {
+	height: 70px;
+    text-transform: uppercase;
+	color: #00b4e4;
+    font-family: 'din-light', sans-serif;
+    font-weight: 900;
+    background-color: #f2f4f7;
+    /*background-color:#00b4e4;*/
+    opacity: 0.8;
+}
+
+.nav_waitlist_button {
+	padding: 10 10px;
+	position: absolute;
+	color:white;
+	background-color: #00b4e4;;
+	text-transform: uppercase;
+	top: 10px;
+	font-family: 'din-light', sans-serif;
+	right: 100px;
+}
+
+.btn-get-invited-lg {
+	text-transform: uppercase;
+	font-family: 'din-light', sans-serif;
+	margin-top: 10px;
+	color:white;
+	background-color: #35bbff;
+	height:60px;
+	width:200px;
+	opacity: .7;
+}
+
+.landing-section .btn-get-invited-lg {
+	margin-top: 40px;
+}
+
+.landing-button {
+	text-transform: uppercase;
+	font-family: 'din-light', sans-serif;
+	opacity: .8;
+	background-color: #35bbff;
+	color: white;
+	height: 50px;
+	width: 150px;
+	margin-top: 50px;
+}
+
+.landing-section h1{
+	font-size: 80px;
+}
+
+.landing-section h2{
+	font-size: 20px;
+}
+
+.logo {
+	position: relative;
+	margin-bottom: 10px;
+	max-height: 120%;
+}
+.landing-section {
+	height: 780px;
+	background: url('../images/LandingPage_FirstBlock.png') no-repeat top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	padding-top: 100px;
+
+	font-family: 'din-light', sans-serif;
+	font-weight: 700;
+	font-size: 100px;
+	color: white;
+}
+
+.white-section {
+	height: 400px;
+	background: white;
+	padding-top: 30px;
+}
+
+.bottom-white-section {
+	background: 
+	  linear-gradient(
+      rgba(64, 163, 163, 0.45), 
+      rgba(64, 163, 163, 0.45)
+    ),
+	url('../images/LandingPage_FirstBlock.png') center bottom;
+	height: 400px;
+	color: white;
+	padding-top: 80px;
+}
+
+.bottom-section{
+	height: 60px;
+	background-color: #35bbff;
+}
+
+.feature-section-top {
+/* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(left center, ellipse closest-corner, #FFFFFF 0%, #3CB684 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(left center, ellipse closest-corner, #FFFFFF 0%, #3CB684 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(left center, ellipse closest-corner, #FFFFFF 0%, #3CB684 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, left center, 0, left center, 140, color-stop(0, #FFFFFF), color-stop(1, #3CB684));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(left center, ellipse closest-corner, #FFFFFF 0%, #3CB684 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse closest-corner at left center, #FFFFFF 0%, #3CB684 100%);
+
+}
+
+.feature-section-mid {
+  background-color: white;
+}
+
+.feature-section-bot {
+/* IE10 Consumer Preview */ 
+background-image: -ms-radial-gradient(left center, ellipse closest-corner, #FFFFFF 0%, #DE7676 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-radial-gradient(left center, ellipse closest-corner, #FFFFFF 0%, #DE7676 100%);
+
+/* Opera */ 
+background-image: -o-radial-gradient(left center, ellipse closest-corner, #FFFFFF 0%, #DE7676 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(radial, left center, 0, left center, 140, color-stop(0, #FFFFFF), color-stop(1, #DE7676));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-radial-gradient(left center, ellipse closest-corner, #FFFFFF 0%, #DE7676 100%);
+
+/* W3C Markup, IE10 Release Preview */ 
+background-image: radial-gradient(ellipse closest-corner at left center, #FFFFFF 0%, #DE7676 100%);
+}
+
+.feature-section {
+	height: 800px;
+}
+
+.feature-section .iphone-wrapper {
+	height: 800px;
+	padding-top: 100px;
+}
+
+.iphone-wrapper-bottom {
+	height: 800px;
+	padding-top: 100px;
+}
+
+.feature-section .description-wrapper {
+	color: white;
+	padding-top: 100px;
+}
+
+.description-wrapper.third {
+	padding-top: 30px;
+} 
+
+.feature-section-bot .iphone-wrapper {
+	padding-top: 30px;
+	height: auto;
+} 
+
+.feature-section-bot {
+	height:700px;
+}
+
+.feature-section .description-wrapper .badges{
+	padding-top: 50px;
+	height: 380px;
+}
+
+.feature-section .description-wrapper.black {
+	color: rgb(122, 122, 122);;
+}
+
+.iphone{
+	position: absolute;	
+	height: 650px;
+}
+
+.iphone-badge{
+	padding-top:10px;
+	height: 500px;
+}
+
+.signup-form{
+	margin-top: 20px;
+}
+
+.email-form{
+	height:55px;
+	width:600px;
+	text-transform: uppercase;
+}
+
+.feature-section .iphone-wrapper-bottom .bottom-description {
+	margin-left: 50px;
+	color: white;
+}
+
+#plan-event-animation {
+    position: absolute;
+    left: 41px;
+    top: 198px;
+}
+
+.carousel-inner > .item > .iphone-inner-image {
+	height: 453px;
+    z-index: 10;
+}
+
+#lucky-animation {
+    position: absolute;
+    left: 45px;
+    top: 197px;
+}
+
+.carousel-inner > .item > .lucky-iphone-inner-image {
+	height: 421px;
+    z-index: 10;
+}
+
+
+.journalize {
+	font-size: 45px;
+	font-weight: 500;
+}
+
+.happen {
+	font-size:45px;
+	font-weight:500;
+}
+
+.discover {
+	font-size:45px;
+	font-weight:500;
+}
+
+.wefeelyou {
+	color:#3CB684;
+	font-size: 45px;
+	font-weight:500;
+}
+
+.socialize {
+	font-size: 45px;
+	font-weight:500;
+}
+
+.testmonial {
+	height: 250px;
+	background color: white;
+}
+
+.social-icon {
+	padding-top: 15px;
+	padding-right: 40px;
+	height: 40px;
+	float: right;
+	color: white;
+}
+
+.monsters{
+	padding-top: 30px;
+	height: 150px;
+}
+
+.monsters-text1 {
+	padding-top: 20px;
+	font-size: 25px;
+	color:#525aa7;
+}
+
+
+.monsters-text2 {
+	padding-top: 20px;
+	font-size: 25px;
+	color: #3CB684;
+}
+
+
+.monsters-text3 {
+	padding-top: 20px;
+	font-size: 25px;
+	color:#0098da;
+}
+
+.testmonial-section {
+	height: 350px;
+	max-width: 740px;
+	font-family: 'din-light', sans-serif;
+	font-size: 20px;
+	color: rgb(122, 122, 122);
+	padding-top: 50px;
+	line-height: 43px;
+	margin: 28px auto 34px;
+}
+
+.face-wrapper {
+	width: 270px;
+}
+
+.author {
+	color: #00b4e4;;
+}
+
+.testamonial.face {
+	display: block;
+	float: left;
+	padding-top: 50px;
+	width: 90px;
+	opacity: 0.5;
+}
+
+.testamonial.face.selected {
+	opacity: 1;
+}
+
+
