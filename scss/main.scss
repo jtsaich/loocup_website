@@ -10,6 +10,16 @@ body {
 	font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "Arial", sans-serif;
 }
 
+.signup-form {
+	margin-top: 20px;
+
+	input[type="email"]{
+		height:55px;
+		width:600px;
+		text-transform: uppercase;
+	}
+}
+
 .btn-get-invited-lg {
 	width:200px;
 	height:60px;
@@ -17,6 +27,12 @@ body {
 	font-weight: 500;
 	text-transform: uppercase;
 	margin-top: 10px;
+}
+
+.description-wrapper {
+	font-size:45px;
+	font-weight:500;
+	padding-top: 100px;
 }
 
 .landing-section {
@@ -36,16 +52,18 @@ body {
 	font-size: 20px;
 	}
 
-	.btn-get-invited-lg {
+	form {
 		margin-top: 40px;
 	}
 }
 
-.white-section {
+.problem-section {
 	height: 400px;
 	background: white;
-	padding-top: 30px;
 
+	.description-wrapper {
+		color:#3CB684;
+	}
 
 	.monsters {
 		padding-top: 30px;
@@ -76,12 +94,6 @@ body {
 .feature-section {
 	height: 800px;
 
-	.description-wrapper {
-		font-size:45px;
-		font-weight:500;
-		padding-top: 100px;
-	}
-
 	&.feature-section-top {
 		background: #3CB684;
 	}	
@@ -89,6 +101,15 @@ body {
 	&.feature-section-mid {
 		background: white;
 		color: rgb(122, 122, 122);
+
+		.iphone-wrapper {
+			float: right;
+
+			& > div {
+				left: initial;
+				right: 38px;
+			}
+		}
 	}
 
 	&.feature-section-bot {
@@ -99,20 +120,16 @@ body {
 			padding-top: 30px;
 		} 
 
-		.iphone-wrapper {
-			padding-top: 30px;
-			height: auto;
-
-			.iphone {
-				height: 500px;
-				position: static;
-				padding-top:10px;
-			}
-		} 
+		.iphone {
+			height: 500px;
+			position: static;
+			padding-top:30px;
+		}
 	}
 
 	.iphone-wrapper {
 		height: 800px;
+		width: 323px;
 		padding-top: 100px;
 
 		.iphone {
@@ -122,8 +139,8 @@ body {
 
 		& > div {
 		    position: absolute;
-		    left: 41px;
-		    top: 198px;
+		    left: 36px;
+		    top: 177px;
 		}
 	}
 }
@@ -180,22 +197,6 @@ body {
 footer {
 	height: 60px;
 	background-color: #35bbff;
-}
-
-.signup-form {
-	margin-top: 20px;
-
-	input[type="email"]{
-		height:55px;
-		width:600px;
-		text-transform: uppercase;
-	}
-}
-
-.wefeelyou {
-	color:#3CB684;
-	font-size: 45px;
-	font-weight:500;
 }
 
 .socialize {
