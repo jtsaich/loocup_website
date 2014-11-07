@@ -1,0 +1,25 @@
+.navbar {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.navbar-brand {
+	> img {
+		height: 60px;
+		display: inline-block;
+	}
+	padding: 5px 0;
+    font-size: 35px;
+}
+
+
+
+.nav_waitlist_button {
+	padding: 10 10px;
+	position: absolute;
+	color:white;
+	background-color: #00b4e4;;
+	text-transform: uppercase;
+	top: 10px;
+	right: 100px;
+}
