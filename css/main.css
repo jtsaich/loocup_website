@@ -8295,7 +8295,7 @@ body {
   color: #3CB684;
 }
 /* line 68, ../scss/main.scss */
-.problem-section .monsters {
+.problem-section .monster {
   padding-top: 30px;
   height: 150px;
 }
@@ -8425,42 +8425,33 @@ footer {
   height: 60px;
   background-color: #35bbff;
 }
-
 /* line 201, ../scss/main.scss */
-.socialize {
-  font-size: 45px;
-  font-weight: 500;
-}
-
-/* line 206, ../scss/main.scss */
-.social-icon {
-  padding-top: 15px;
-  padding-right: 40px;
+footer .social-icon {
+  margin-top: 10px;
+  margin-right: 40px;
   height: 40px;
-  float: right;
-  color: white;
 }
 
 /* entire container, keeps perspective */
-/* line 215, ../scss/main.scss */
+/* line 210, ../scss/main.scss */
 .flip-container {
   perspective: 1000;
 }
 
 /* flip the pane when hovered */
-/* line 219, ../scss/main.scss */
+/* line 214, ../scss/main.scss */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
   transform: rotateY(180deg);
 }
 
-/* line 223, ../scss/main.scss */
+/* line 218, ../scss/main.scss */
 .flip-container, .front, .back {
   width: 320px;
   height: 205px;
 }
 
 /* flip speed goes here */
-/* line 229, ../scss/main.scss */
+/* line 224, ../scss/main.scss */
 .flipper {
   transition: 0.6s;
   transform-style: preserve-3d;
@@ -8468,7 +8459,7 @@ footer {
 }
 
 /* hide back of pane during swap */
-/* line 237, ../scss/main.scss */
+/* line 232, ../scss/main.scss */
 .front, .back {
   backface-visibility: hidden;
   position: absolute;
@@ -8477,7 +8468,7 @@ footer {
 }
 
 /* front pane, placed above back */
-/* line 246, ../scss/main.scss */
+/* line 241, ../scss/main.scss */
 .front {
   z-index: 2;
   /* for firefox 31 */
@@ -8485,7 +8476,7 @@ footer {
 }
 
 /* back, initially hidden pane */
-/* line 253, ../scss/main.scss */
+/* line 248, ../scss/main.scss */
 .back {
   transform: rotateY(180deg);
 }

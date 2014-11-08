@@ -63,45 +63,45 @@
         <div class="problem-section">
             <div class="container">
                 <div class="col-xs-12">
-                    <span id="wefeel" class="description-wrapper center-block text-center">We feel you</span>
+                    <span id="problem-header" class="description-wrapper center-block text-center">We feel you</span>
                 </div>
             	<div class="col-xs-12 col-sm-4">
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container center-block monster-wrapper" ontouchstart="this.classList.toggle('hover');">
                         <div class="flipper">
                             <div class="front">
-                                <img class="center-block monsters" src="images/monster1.png" />
+                                <img class="center-block monster" src="images/monster1.png" />
                                 <span class="monsters-text1 text-center center-block">Not Enought Time to Plan</span>
                             </div>
                             <div class="back">
-                                <img class="center-block monsters" src="images/happymonster1.png" />
+                                <img class="center-block monster" src="images/happymonster1.png" />
                                 <span class="monsters-text1 text-center center-block">Sustained Friendship</span>
                             </div>
                         </div>
                     </div>
     	        </div>
                 <div class="col-xs-12 col-sm-4">
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container center-block monster-wrapper" ontouchstart="this.classList.toggle('hover');">
                         <div class="flipper">
                             <div class="front">
-                                <img class="center-block monsters" src="images/monster2.png" />
+                                <img class="center-block monster" src="images/monster2.png" />
                                 <span class="monsters-text2 text-center center-block">No hobby Buddies</span>
                             </div>
                             <div class="back">
-                                <img class="center-block monsters" src="images/happymonster2.png" />
+                                <img class="center-block monster" src="images/happymonster2.png" />
                                 <span class="monsters-text2 text-center center-block">New Best Friend</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flip-container center-block monster-wrapper" ontouchstart="this.classList.toggle('hover');">
                         <div class="flipper">
                             <div class="front">
-                                <img class="center-block monsters" src="images/monster3.png" />
+                                <img class="center-block monster" src="images/monster3.png" />
                                 <span class="monsters-text3 text-center center-block">Too Much Online Socializing</span>
                             </div>
                             <div class="back">
-                                <img class="center-block monsters" src="images/happymonster3.png" />
+                                <img class="center-block monster" src="images/happymonster3.png" />
                                 <span class="monsters-text3 text-center center-block">Happy and Real</span>
                             </div>
                         </div>
@@ -223,13 +223,11 @@
             </div>
         </div>
 
-
-
-
-
         <footer>
-            <a target="_blank" href="https://twitter.com/tweetloocup"><img class="social-icon" src="images/twitter.png" /></a>
-            <a target="_blank" href="https://www.facebook.com/loocupapp?ref=bookmarks"><img class="social-icon" src="images/facebook.png" /></a>
+            <div class="container">
+                <a target="_blank" href="https://twitter.com/tweetloocup"><img class="pull-right social-icon" src="images/twitter.png" /></a>
+                <a target="_blank" href="https://www.facebook.com/loocupapp?ref=bookmarks"><img class="pull-right social-icon" src="images/facebook.png" /></a>
+            </div>
         </footer>
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -271,54 +269,22 @@
                 return false;
             });
 
-            var feelTextArr = ['We feel you', 'Let us help'];
-            var monsterTextArr = [
-                'Not Enought Time to Plan', 
-                'No hobby Buddies', 
-                'Too Much Online Socializing'
-            ];
-            var happyMonsterTextArr = [
-                'Sustained Friendship', 
-            ];
+            $('.monster-wrapper').hover(function() {
+                $('#problem-header').fadeTo('fast', 0, function() {
+                    $('#problem-header').text('Let us help');
+                    $('#problem-header').fadeTo('fast', 1);
+                });
+                
+            }, function() {
+                $('#problem-header').fadeTo('fast', 0, function() {
+                    $('#problem-header').text('We feel you');
+                    $('#problem-header').fadeTo('fast', 1);
+                });
+                
+            });
 
             $(document).ready(function(){
                 $(".monsters").css('cursor','url(images/cursor.png),auto');
-            });
-
-            $('#monster1').mouseover(function() {
-                $(this).attr('src', 'images/happymonster1.png');
-                $('#monster1-text').text(happyMonsterTextArr[0]);
-                $('#wefeel').text(feelTextArr[1]);
-            });
-
-            $('#monster1').mouseout(function() {
-                $(this).attr('src', 'images/monster1.png');
-                $('#monster1-text').text(monsterTextArr[0]);
-                $('#wefeel').text(feelTextArr[0]);
-            });
-
-            $('#monster2').mouseover(function() {
-                $(this).attr('src', 'images/happymonster2.png');
-                $('#monster2-text').text(happyMonsterTextArr[1]);
-                $('#wefeel').text(feelTextArr[1]);
-            });
-
-            $('#monster2').mouseout(function() {
-                $(this).attr('src', 'images/monster2.png');
-                $('#monster2-text').text(monsterTextArr[1]);
-                $('#wefeel').text(feelTextArr[0]);
-            });
-
-            $('#monster3').mouseover(function() {
-                $(this).attr('src', 'images/happymonster3.png');
-                $('#monster3-text').text(happyMonsterTextArr[2]);
-                $('#wefeel').text(feelTextArr[1]);
-            });
-
-            $('#monster3').mouseout(function() {
-                $(this).attr('src', 'images/monster3.png');
-                $('#monster3-text').text(monsterTextArr[2]);
-                $('#wefeel').text(feelTextArr[0]);
             });
 
             var testomonialArr = [
@@ -335,13 +301,15 @@
             var clickFace = function(i) {
                 $("#quote").fadeTo('fast', 0, function() {
                     $(this).text(testomonialArr[i]);
+                    $(this).fadeTo('slow', 1);
                 });
                 $("#author").fadeTo('fast', 0, function() {
                     $(this).text(authorArr[i]);
+                    $(this).fadeTo('slow', 1);
                 });
 
-                $("#quote").fadeTo('slow', 1);
-                $("#author").fadeTo('fast', 1);
+                
+                
             };
 
             $('.face').click(function() {
