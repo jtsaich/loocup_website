@@ -173,12 +173,15 @@
                 </div>
                 <div class="col-xs-12 col-md-4 center-block">
                     <img class="iphone center-block" src="images/iphone.png" />
+                    <img class="badge-screen" src="../images/iphone_screens/badge_detail.png" />
                 </div>
                 <div class="col-xs-12 col-md-4 center-block">
                     <img class="iphone center-block" src="images/iphone.png" />
+                    <img class="badge-screen" src="../images/iphone_screens/badge_collection.png" />
                 </div>
                 <div class="col-xs-12 col-md-4 center-block">
                     <img class="iphone center-block" src="images/iphone.png" />
+                    <img class="badge-screen" id="badge-animation-wrapper" src="../images/iphone_screens/badge_1.png" />
                 </div>
             </div>
         </div>
@@ -246,9 +249,15 @@
         </script>
 
         <script>
-            // boostrap carousel setup
-            var timer, planEventSlide = 1;
+            // go to bottom util
+            $('.go-to-bottom').click(function() {
+                $('html,body').animate({
+                    scrollTop: document.body.scrollHeight
+                }, 2000, 'easeOutExpo');
+                return false;
+            });
 
+            // boostrap carousel setup
         	$(window).scroll(function() {
                 if ($(window).scrollTop() > 500) {
                     $('nav').removeClass('hidden');
@@ -259,14 +268,6 @@
 
             $('.carousel').carousel({
                 interval: 2000
-            });
-
-            // go to bottom util
-            $('.go-to-bottom').click(function() {
-                $('html,body').animate({
-                    scrollTop: document.body.scrollHeight
-                }, 2000, 'easeOutExpo');
-                return false;
             });
 
             $('.monster-wrapper').hover(function() {
@@ -307,9 +308,6 @@
                     $(this).text(authorArr[i]);
                     $(this).fadeTo('slow', 1);
                 });
-
-                
-                
             };
 
             $('.face').click(function() {
@@ -317,6 +315,19 @@
                 $(this).addClass('selected');
                 clickFace($(this).index());
             });
+
+            var timer = 1;
+            setInterval(badgeAnimation, 200);
+
+            function badgeAnimation() {
+                if (timer <= 5) {
+                    $('#badge-animation-wrapper').attr('src', '../images/iphone_screens/badge_' + timer + '.png');
+                }
+                timer %= 10;
+                timer++;
+            }
+
+
 
         </script>
     </body>
