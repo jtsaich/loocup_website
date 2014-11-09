@@ -14,6 +14,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+        <link rel="stylesheet" href="css/jquery-ui.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <link rel="icon" href="/favicon.ico">
@@ -112,6 +113,41 @@
             </div>
         </div>
 
+        <div class="feature-section feature-section-event">
+            <div class="container">
+                <div class="col-xs-12 description-wrapper ">
+                    <span class="text-center center-block">Make things happen in a snap</span>
+                </div>
+                <div class="col-xs-12 col-md-4 center-block">
+                    <div id="event-iphone-1" >
+                        <div class="text-center">Select Time</div>
+                        <div class="iphone-wrapper">
+                            <img class="iphone center-block" src="images/iphone.png" />
+                            <!-- <img class="screen" src="../images/iphone_screens/create_event_1.png" /> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 center-block">
+                    <div id="event-iphone-2">
+                        <div class="text-center">Select Activity</div>
+                        <div class="iphone-wrapper">
+                            <img class="iphone center-block" src="images/iphone.png" />
+                            <!-- <img class="screen"src="../images/iphone_screens/create_event_2.png" /> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 center-block">
+                    <div id="event-iphone-3">
+                        <div class="text-center">Done!</div>
+                        <div class="iphone-wrapper">
+                            <img class="iphone center-block" src="images/iphone.png" />
+                            <!-- <img class="screen" src="../images/iphone_screens/create_event_3.png" /> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="feature-section feature-section-top">
             <div class="container">
 	        	<div class="col-xs-12 col-sm-5">
@@ -168,26 +204,6 @@
             </div>
         </div>
 
-        <div class="feature-section feature-section-bot">
-            <div class="container">
-                <div class="col-xs-12 description-wrapper ">
-                    <span class="text-center center-block">Journalize your friendship</span>
-                </div>
-                <div class="col-xs-12 col-md-4 center-block">
-                    <img class="iphone center-block" src="images/iphone.png" />
-                    <img class="badge-screen" src="../images/iphone_screens/badge_detail.png" />
-                </div>
-                <div class="col-xs-12 col-md-4 center-block">
-                    <img class="iphone center-block" src="images/iphone.png" />
-                    <img class="badge-screen" src="../images/iphone_screens/badge_collection.png" />
-                </div>
-                <div class="col-xs-12 col-md-4 center-block">
-                    <img class="iphone center-block" src="images/iphone.png" />
-                    <img class="badge-screen" id="badge-animation-wrapper" src="../images/iphone_screens/badge_1.png" />
-                </div>
-            </div>
-        </div>
-
         <div>
             <div class="testmonial-section"> 
                 <div class="inside">
@@ -237,7 +253,7 @@
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/vendor/jquery.min.js"></script>
-        <script src="js/vendor/jquery-ui.min.js"></script>
+        <script src="js/vendor/jquery-ui.js"></script>
         <script src="js/vendor/bootstrap.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
@@ -259,13 +275,31 @@
                 return false;
             });
 
-            // boostrap carousel setup
+            // trigger top nav bar when scroll to 500+
         	$(window).scroll(function() {
                 if ($(window).scrollTop() > 500) {
                     $('nav').removeClass('hidden');
                 } else if ($(window).scrollTop() <= 500) {
                     $('nav').addClass('hidden');
                 }
+
+                var iphoneOpacity = $(window).scrollTop() / 
+                    ($('.feature-section-event').offset().top - $('nav').height());
+                var iphoneMarginTop = ($('.feature-section-event').offset().top - $('nav').height()) /
+                    $(window).scrollTop() -  1;
+                
+                $('#event-iphone-1').css('opacity', iphoneOpacity * 10 - 6);
+                $('#event-iphone-2').css('opacity', iphoneOpacity * 12 - 9);
+                $('#event-iphone-3').css('opacity', iphoneOpacity * 10 - 9);
+                $('#event-iphone-1').css('margin-top', 
+                    iphoneMarginTop * 100 - 40 > 0 ? iphoneMarginTop * 100 - 40 : 0);
+                $('#event-iphone-2').css('margin-top', 
+                    iphoneMarginTop * 180 - 40 > 0 ? iphoneMarginTop * 180 - 40 : 0);
+                $('#event-iphone-3').css('margin-top', 
+                    iphoneMarginTop * 240 > 0 ? iphoneMarginTop * 324 : 0);
+                $('#event-iphone-1').css('font-size', iphoneOpacity * 42 < 30 ? iphoneOpacity * 42 : 30);
+                $('#event-iphone-2').css('font-size', iphoneOpacity * 48 - 10 < 30 ? iphoneOpacity * 48 - 10 : 30);
+                $('#event-iphone-3').css('font-size', iphoneOpacity * 50 - 20 < 30 ? iphoneOpacity * 50 - 20 : 30);
             });
 
             $('.carousel').carousel({
@@ -314,19 +348,18 @@
                 clickFace($(this).index());
             });
 
-            var timer = 1;
-            setInterval(badgeAnimation, 200);
+            // var timer = 2;
+            // setInterval(badgeAnimation, 1500);
 
-            function badgeAnimation() {
-                if (timer <= 5) {
-                    $('#badge-animation-wrapper').attr('src', '../images/iphone_screens/badge_' + timer + '.png');
-                }
-                timer %= 10;
-                timer++;
-            }
+            // function badgeAnimation() {
+            //     $('.current-screen').removeClass('current-screen');
+            //     $('#event-iphone-' + timer).addClass('current-screen');
+            //     timer %= 3;
+            //     timer++;
+            // }
 
             $(document).ready(function(){
-                $(".monsters").css('cursor','url(images/cursor.png),auto');
+                
             });
 
         </script>

@@ -8369,7 +8369,7 @@ body {
 
 /* line 94, ../scss/main.scss */
 .feature-section {
-  height: 800px;
+  font-size: 25px;
 }
 /* line 97, ../scss/main.scss */
 .feature-section.feature-section-top {
@@ -8390,59 +8390,65 @@ body {
   right: 38px;
 }
 /* line 115, ../scss/main.scss */
-.feature-section.feature-section-bot {
-  height: 700px;
+.feature-section.feature-section-event {
   background: #DE7676;
+  font-weight: 500;
 }
 /* line 119, ../scss/main.scss */
-.feature-section.feature-section-bot .description-wrapper {
+.feature-section.feature-section-event .description-wrapper {
   padding-top: 30px;
+  margin-bottom: 30px;
 }
-/* line 123, ../scss/main.scss */
-.feature-section.feature-section-bot .iphone {
-  height: 500px;
+/* line 124, ../scss/main.scss */
+.feature-section.feature-section-event .iphone-wrapper {
+  height: auto;
+  width: auto;
+  padding-top: 20px;
+  margin-bottom: 100px;
+}
+/* line 130, ../scss/main.scss */
+.feature-section.feature-section-event .iphone-wrapper .iphone {
   position: static;
-  padding-top: 30px;
+  width: 320px;
 }
-/* line 129, ../scss/main.scss */
-.feature-section.feature-section-bot .badge-screen {
+/* line 135, ../scss/main.scss */
+.feature-section.feature-section-event .iphone-wrapper .screen {
   position: absolute;
-  width: 203px;
-  left: 88px;
-  top: 85px;
-  z-index: 2;
+  width: 279px;
+  left: 50px;
+  top: 77px;
 }
-/* line 138, ../scss/main.scss */
+/* line 145, ../scss/main.scss */
 .feature-section .iphone-wrapper {
   height: 800px;
   width: 323px;
   padding-top: 100px;
 }
-/* line 143, ../scss/main.scss */
+/* line 150, ../scss/main.scss */
 .feature-section .iphone-wrapper .iphone {
   position: absolute;
   height: 650px;
 }
-/* line 148, ../scss/main.scss */
+/* line 155, ../scss/main.scss */
 .feature-section .iphone-wrapper > div {
   position: absolute;
   left: 36px;
   top: 177px;
 }
 
-/* line 156, ../scss/main.scss */
+/* line 163, ../scss/main.scss */
 .carousel-inner > .item > .iphone-inner-image {
   height: 453px;
   z-index: 10;
 }
 
-/* line 161, ../scss/main.scss */
+/* line 168, ../scss/main.scss */
 .carousel-inner > .item > .lucky-iphone-inner-image {
   height: 421px;
   z-index: 10;
 }
 
-/* line 167, ../scss/main.scss */
+/* line 174, ../scss/main.scss */
 .testmonial-section {
   height: 350px;
   font-size: 20px;
@@ -8450,39 +8456,39 @@ body {
   padding-top: 50px;
   margin: 28px auto 34px;
 }
-/* line 174, ../scss/main.scss */
+/* line 181, ../scss/main.scss */
 .testmonial-section .author {
   font-size: 20px;
   color: #00b4e4;
   line-height: 43px;
 }
-/* line 180, ../scss/main.scss */
+/* line 187, ../scss/main.scss */
 .testmonial-section .faces-wrapper {
   width: 390px;
 }
-/* line 183, ../scss/main.scss */
+/* line 190, ../scss/main.scss */
 .testmonial-section .faces-wrapper .face {
   width: 120px;
   margin: 5px;
   opacity: 0.5;
 }
-/* line 188, ../scss/main.scss */
+/* line 195, ../scss/main.scss */
 .testmonial-section .faces-wrapper .face.selected {
   opacity: 1;
 }
 
-/* line 195, ../scss/main.scss */
+/* line 202, ../scss/main.scss */
 .bottom-email-section {
   height: 400px;
   background: linear-gradient(rgba(64, 163, 163, 0.45), rgba(64, 163, 163, 0.45)), url("../images/landing_bg.png") center bottom;
 }
 
-/* line 204, ../scss/main.scss */
+/* line 211, ../scss/main.scss */
 footer {
   height: 60px;
   background-color: #35bbff;
 }
-/* line 209, ../scss/main.scss */
+/* line 216, ../scss/main.scss */
 footer .social-icon {
   margin-top: 10px;
   margin-right: 40px;

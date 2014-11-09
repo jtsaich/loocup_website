@@ -92,7 +92,7 @@ body {
 }
 
 .feature-section {
-	height: 800px;
+	font-size: 25px;
 
 	&.feature-section-top {
 		background: #3CB684;
@@ -112,27 +112,34 @@ body {
 		}
 	}
 
-	&.feature-section-bot {
-		height:700px;
+	&.feature-section-event {
 		background: #DE7676;
+		font-weight: 500;
 
 		.description-wrapper {
 			padding-top: 30px;
-		} 
-
-		.iphone {
-			height: 500px;
-			position: static;
-			padding-top:30px;
+			margin-bottom: 30px;
 		}
 
-		.badge-screen {
-			position: absolute;
-			width: 203px;
-			left: 88px;
-			top: 85px;
-			z-index: 2;
+		.iphone-wrapper {
+			height: auto;
+			width: auto;
+			padding-top: 20px;
+			margin-bottom: 100px;
+
+			.iphone {
+				position: static;
+				width: 320px;
+			}
+
+			.screen {
+				position: absolute;
+				width: 279px;
+				left: 50px;
+				top: 77px;
+			}
 		}
+
 	}
 
 	.iphone-wrapper {
