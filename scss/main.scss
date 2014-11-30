@@ -4,10 +4,15 @@
 @import "navbar";
 @import "flip";
 
-$default-blue: #00b4e4;
+$default-blue: #0096D6;
 
 body {
 	font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "Arial", sans-serif;
+	color: $default-blue;
+}
+
+.white {
+	color: white;
 }
 
 .signup-form {
@@ -27,12 +32,6 @@ body {
 	font-weight: 500;
 	text-transform: uppercase;
 	margin-top: 10px;
-}
-
-.description-wrapper {
-	font-size:45px;
-	font-weight:500;
-	padding-top: 100px;
 }
 
 .landing-section {
@@ -61,10 +60,6 @@ body {
 	height: 400px;
 	background: white;
 
-	.description-wrapper {
-		color:#3CB684;
-	}
-
 	.monster {
 		padding-top: 30px;
 		height: 150px;
@@ -73,103 +68,54 @@ body {
 	.monsters-text1 {
 		padding-top: 20px;
 		font-size: 25px;
-		color:#525aa7;
+		color: $default-blue;
 	}
 
 
 	.monsters-text2 {
 		padding-top: 20px;
 		font-size: 25px;
-		color: #3CB684;
+		color: $default-blue;
 	}
 
 
 	.monsters-text3 {
 		padding-top: 20px;
 		font-size: 25px;
-		color:#0098da;
+		color: $default-blue;
 	}
 }
 
-.feature-section {
-	font-size: 25px;
+.section-wrapper {
+	padding: 50px 0;
+}
 
-	&.feature-section-top {
-		background: #3CB684;
-	}	
+.step-wrapper {
+	margin: 50px 0;
 
-	&.feature-section-mid {
-		background: white;
-		color: rgb(122, 122, 122);
-
-		.iphone-wrapper {
-			float: right;
-
-			& > div {
-				left: initial;
-				right: 38px;
-			}
-		}
-	}
-
-	&.feature-section-event {
-		background: #DE7676;
-		font-weight: 500;
-
-		.description-wrapper {
-			padding-top: 30px;
-			margin-bottom: 30px;
-		}
-
-		.iphone-wrapper {
-			height: auto;
-			width: auto;
-			padding-top: 20px;
-			margin-bottom: 100px;
-
-			.iphone {
-				position: static;
-				width: 320px;
-			}
-
-			.screen {
-				position: absolute;
-				width: 279px;
-				left: 50px;
-				top: 77px;
-			}
-		}
-
-	}
-
-	.iphone-wrapper {
-		height: 800px;
-		width: 323px;
-		padding-top: 100px;
-
-		.iphone {
-			position: absolute;	
-			height: 650px;
-		}
-
-		& > div {
-		    position: absolute;
-		    left: 36px;
-		    top: 177px;
-		}
+	.step-icon {
+		position: relative;
+		left: -8px;
 	}
 }
 
-.carousel-inner > .item > .iphone-inner-image {
-	height: 453px;
-    z-index: 10;
+.friends-img {
+	margin-top: 80px;
+	width: 100%;
 }
 
-.carousel-inner > .item > .lucky-iphone-inner-image {
-	height: 421px;
-    z-index: 10;
+.relationships-img {
+	width: 100%;	
 }
 
+.discover-img {
+	margin-top: 30px;
+	width: 100%;
+}
+
+.badge-wrapper {
+	margin: 30px 0;
+}
 
 .testmonial-section {
 	height: 350px;
@@ -210,7 +156,7 @@ body {
 
 footer {
 	height: 60px;
-	background-color: #35bbff;
+	background-color: #0096D6;
 
 
 	.social-icon {

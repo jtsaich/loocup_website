@@ -8281,20 +8281,26 @@ button.close {
 /* line 9, ../scss/main.scss */
 body {
   font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "Arial", sans-serif;
+  color: #0096D6;
 }
 
-/* line 13, ../scss/main.scss */
+/* line 14, ../scss/main.scss */
+.white {
+  color: white;
+}
+
+/* line 18, ../scss/main.scss */
 .signup-form {
   margin-top: 20px;
 }
-/* line 16, ../scss/main.scss */
+/* line 21, ../scss/main.scss */
 .signup-form input[type="email"] {
   height: 55px;
   width: 600px;
   text-transform: uppercase;
 }
 
-/* line 23, ../scss/main.scss */
+/* line 28, ../scss/main.scss */
 .btn-get-invited-lg {
   width: 200px;
   height: 60px;
@@ -8304,14 +8310,7 @@ body {
   margin-top: 10px;
 }
 
-/* line 32, ../scss/main.scss */
-.description-wrapper {
-  font-size: 45px;
-  font-weight: 500;
-  padding-top: 100px;
-}
-
-/* line 38, ../scss/main.scss */
+/* line 37, ../scss/main.scss */
 .landing-section {
   height: 780px;
   background: url("../images/landing_bg.png") no-repeat top center;
@@ -8321,134 +8320,86 @@ body {
   background-size: cover;
   padding-top: 100px;
 }
-/* line 47, ../scss/main.scss */
+/* line 46, ../scss/main.scss */
 .landing-section h1 {
   font-size: 80px;
 }
-/* line 51, ../scss/main.scss */
+/* line 50, ../scss/main.scss */
 .landing-section h2 {
   font-size: 20px;
 }
-/* line 55, ../scss/main.scss */
+/* line 54, ../scss/main.scss */
 .landing-section form {
   margin-top: 40px;
 }
 
-/* line 60, ../scss/main.scss */
+/* line 59, ../scss/main.scss */
 .problem-section {
   height: 400px;
   background: white;
 }
-/* line 64, ../scss/main.scss */
-.problem-section .description-wrapper {
-  color: #3CB684;
-}
-/* line 68, ../scss/main.scss */
+/* line 63, ../scss/main.scss */
 .problem-section .monster {
   padding-top: 30px;
   height: 150px;
 }
-/* line 73, ../scss/main.scss */
+/* line 68, ../scss/main.scss */
 .problem-section .monsters-text1 {
   padding-top: 20px;
   font-size: 25px;
-  color: #525aa7;
+  color: #0096D6;
 }
-/* line 80, ../scss/main.scss */
+/* line 75, ../scss/main.scss */
 .problem-section .monsters-text2 {
   padding-top: 20px;
   font-size: 25px;
-  color: #3CB684;
+  color: #0096D6;
 }
-/* line 87, ../scss/main.scss */
+/* line 82, ../scss/main.scss */
 .problem-section .monsters-text3 {
   padding-top: 20px;
   font-size: 25px;
-  color: #0098da;
+  color: #0096D6;
 }
 
-/* line 94, ../scss/main.scss */
-.feature-section {
-  font-size: 25px;
-}
-/* line 97, ../scss/main.scss */
-.feature-section.feature-section-top {
-  background: #3CB684;
-}
-/* line 101, ../scss/main.scss */
-.feature-section.feature-section-mid {
-  background: white;
-  color: #7a7a7a;
-}
-/* line 105, ../scss/main.scss */
-.feature-section.feature-section-mid .iphone-wrapper {
-  float: right;
-}
-/* line 108, ../scss/main.scss */
-.feature-section.feature-section-mid .iphone-wrapper > div {
-  left: initial;
-  right: 38px;
-}
-/* line 115, ../scss/main.scss */
-.feature-section.feature-section-event {
-  background: #DE7676;
-  font-weight: 500;
-}
-/* line 119, ../scss/main.scss */
-.feature-section.feature-section-event .description-wrapper {
-  padding-top: 30px;
-  margin-bottom: 30px;
-}
-/* line 124, ../scss/main.scss */
-.feature-section.feature-section-event .iphone-wrapper {
-  height: auto;
-  width: auto;
-  padding-top: 20px;
-  margin-bottom: 100px;
-}
-/* line 130, ../scss/main.scss */
-.feature-section.feature-section-event .iphone-wrapper .iphone {
-  position: static;
-  width: 320px;
-}
-/* line 135, ../scss/main.scss */
-.feature-section.feature-section-event .iphone-wrapper .screen {
-  position: absolute;
-  width: 279px;
-  left: 50px;
-  top: 77px;
-}
-/* line 145, ../scss/main.scss */
-.feature-section .iphone-wrapper {
-  height: 800px;
-  width: 323px;
-  padding-top: 100px;
-}
-/* line 150, ../scss/main.scss */
-.feature-section .iphone-wrapper .iphone {
-  position: absolute;
-  height: 650px;
-}
-/* line 155, ../scss/main.scss */
-.feature-section .iphone-wrapper > div {
-  position: absolute;
-  left: 36px;
-  top: 177px;
+/* line 89, ../scss/main.scss */
+.section-wrapper {
+  padding: 50px 0;
 }
 
-/* line 163, ../scss/main.scss */
-.carousel-inner > .item > .iphone-inner-image {
-  height: 453px;
-  z-index: 10;
+/* line 93, ../scss/main.scss */
+.step-wrapper {
+  margin: 50px 0;
+}
+/* line 96, ../scss/main.scss */
+.step-wrapper .step-icon {
+  position: relative;
+  left: -8px;
 }
 
-/* line 168, ../scss/main.scss */
-.carousel-inner > .item > .lucky-iphone-inner-image {
-  height: 421px;
-  z-index: 10;
+/* line 102, ../scss/main.scss */
+.friends-img {
+  margin-top: 80px;
+  width: 100%;
 }
 
-/* line 174, ../scss/main.scss */
+/* line 107, ../scss/main.scss */
+.relationships-img {
+  width: 100%;
+}
+
+/* line 111, ../scss/main.scss */
+.discover-img {
+  margin-top: 30px;
+  width: 100%;
+}
+
+/* line 116, ../scss/main.scss */
+.badge-wrapper {
+  margin: 30px 0;
+}
+
+/* line 120, ../scss/main.scss */
 .testmonial-section {
   height: 350px;
   font-size: 20px;
@@ -8456,39 +8407,39 @@ body {
   padding-top: 50px;
   margin: 28px auto 34px;
 }
-/* line 181, ../scss/main.scss */
+/* line 127, ../scss/main.scss */
 .testmonial-section .author {
   font-size: 20px;
-  color: #00b4e4;
+  color: #0096D6;
   line-height: 43px;
 }
-/* line 187, ../scss/main.scss */
+/* line 133, ../scss/main.scss */
 .testmonial-section .faces-wrapper {
   width: 390px;
 }
-/* line 190, ../scss/main.scss */
+/* line 136, ../scss/main.scss */
 .testmonial-section .faces-wrapper .face {
   width: 120px;
   margin: 5px;
   opacity: 0.5;
 }
-/* line 195, ../scss/main.scss */
+/* line 141, ../scss/main.scss */
 .testmonial-section .faces-wrapper .face.selected {
   opacity: 1;
 }
 
-/* line 202, ../scss/main.scss */
+/* line 148, ../scss/main.scss */
 .bottom-email-section {
   height: 400px;
   background: linear-gradient(rgba(64, 163, 163, 0.45), rgba(64, 163, 163, 0.45)), url("../images/landing_bg.png") center bottom;
 }
 
-/* line 211, ../scss/main.scss */
+/* line 157, ../scss/main.scss */
 footer {
   height: 60px;
-  background-color: #35bbff;
+  background-color: #0096D6;
 }
-/* line 216, ../scss/main.scss */
+/* line 162, ../scss/main.scss */
 footer .social-icon {
   margin-top: 10px;
   margin-right: 40px;
