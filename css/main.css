@@ -8285,22 +8285,27 @@ body {
 }
 
 /* line 14, ../scss/main.scss */
+h1 {
+  font-size: 4em;
+}
+
+/* line 18, ../scss/main.scss */
 .white {
   color: white;
 }
 
-/* line 18, ../scss/main.scss */
+/* line 22, ../scss/main.scss */
 .signup-form {
   margin-top: 20px;
 }
-/* line 21, ../scss/main.scss */
+/* line 25, ../scss/main.scss */
 .signup-form input[type="email"] {
   height: 55px;
-  width: 600px;
+  max-width: 600px;
   text-transform: uppercase;
 }
 
-/* line 28, ../scss/main.scss */
+/* line 32, ../scss/main.scss */
 .btn-get-invited-lg {
   width: 200px;
   height: 60px;
@@ -8310,7 +8315,7 @@ body {
   margin-top: 10px;
 }
 
-/* line 37, ../scss/main.scss */
+/* line 41, ../scss/main.scss */
 .landing-section {
   height: 780px;
   background: url("../images/landing_bg.png") no-repeat top center;
@@ -8320,88 +8325,84 @@ body {
   background-size: cover;
   padding-top: 100px;
 }
-/* line 46, ../scss/main.scss */
-.landing-section h1 {
-  font-size: 80px;
-}
 /* line 50, ../scss/main.scss */
-.landing-section h2 {
-  font-size: 20px;
-}
-/* line 54, ../scss/main.scss */
 .landing-section form {
   margin-top: 40px;
 }
 
-/* line 59, ../scss/main.scss */
+/* line 55, ../scss/main.scss */
 .problem-section {
-  height: 400px;
+  display: none;
   background: white;
 }
-/* line 63, ../scss/main.scss */
+/* line 59, ../scss/main.scss */
 .problem-section .monster {
   padding-top: 30px;
   height: 150px;
 }
-/* line 68, ../scss/main.scss */
+/* line 64, ../scss/main.scss */
 .problem-section .monsters-text1 {
   padding-top: 20px;
   font-size: 25px;
   color: #0096D6;
 }
-/* line 75, ../scss/main.scss */
+/* line 71, ../scss/main.scss */
 .problem-section .monsters-text2 {
   padding-top: 20px;
   font-size: 25px;
   color: #0096D6;
 }
-/* line 82, ../scss/main.scss */
+/* line 78, ../scss/main.scss */
 .problem-section .monsters-text3 {
   padding-top: 20px;
   font-size: 25px;
   color: #0096D6;
 }
 
-/* line 89, ../scss/main.scss */
+/* line 85, ../scss/main.scss */
 .section-wrapper {
   padding: 50px 0;
 }
 
-/* line 93, ../scss/main.scss */
+/* line 89, ../scss/main.scss */
 .step-wrapper {
   margin: 50px 0;
 }
-/* line 96, ../scss/main.scss */
+/* line 92, ../scss/main.scss */
 .step-wrapper .step-icon {
   position: relative;
   left: -8px;
 }
 
-/* line 102, ../scss/main.scss */
+/* line 98, ../scss/main.scss */
 .friends-img {
   margin-top: 80px;
   width: 100%;
 }
 
-/* line 107, ../scss/main.scss */
+/* line 103, ../scss/main.scss */
 .relationships-img {
   width: 100%;
 }
 
-/* line 111, ../scss/main.scss */
+/* line 107, ../scss/main.scss */
 .discover-img {
   margin-top: 30px;
   width: 100%;
 }
 
-/* line 116, ../scss/main.scss */
+/* line 112, ../scss/main.scss */
 .badge-wrapper {
   margin: 30px 0;
 }
+/* line 115, ../scss/main.scss */
+.badge-wrapper img {
+  width: 100%;
+  max-width: 140px;
+}
 
-/* line 120, ../scss/main.scss */
+/* line 121, ../scss/main.scss */
 .testmonial-section {
-  height: 350px;
   font-size: 20px;
   color: #7a7a7a;
   padding-top: 50px;
@@ -8414,32 +8415,34 @@ body {
   line-height: 43px;
 }
 /* line 133, ../scss/main.scss */
-.testmonial-section .faces-wrapper {
-  width: 390px;
-}
-/* line 136, ../scss/main.scss */
-.testmonial-section .faces-wrapper .face {
+.testmonial-section .face {
   width: 120px;
   margin: 5px;
+}
+/* line 139, ../scss/main.scss */
+.testmonial-section .hidden-sm .face, .testmonial-section .hidden-md .face, .testmonial-section .hidden-lg .face {
+  opacity: 1;
+}
+/* line 145, ../scss/main.scss */
+.testmonial-section .hidden-xs .face {
   opacity: 0.5;
 }
-/* line 141, ../scss/main.scss */
-.testmonial-section .faces-wrapper .face.selected {
+/* line 148, ../scss/main.scss */
+.testmonial-section .hidden-xs .face.selected {
   opacity: 1;
 }
 
-/* line 148, ../scss/main.scss */
+/* line 155, ../scss/main.scss */
 .bottom-email-section {
-  height: 400px;
   background: linear-gradient(rgba(64, 163, 163, 0.45), rgba(64, 163, 163, 0.45)), url("../images/landing_bg.png") center bottom;
 }
 
-/* line 157, ../scss/main.scss */
+/* line 163, ../scss/main.scss */
 footer {
   height: 60px;
   background-color: #0096D6;
 }
-/* line 162, ../scss/main.scss */
+/* line 168, ../scss/main.scss */
 footer .social-icon {
   margin-top: 10px;
   margin-right: 40px;

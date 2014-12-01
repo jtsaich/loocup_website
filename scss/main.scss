@@ -11,6 +11,10 @@ body {
 	color: $default-blue;
 }
 
+h1 {
+	font-size: 4em;
+}
+
 .white {
 	color: white;
 }
@@ -20,7 +24,7 @@ body {
 
 	input[type="email"]{
 		height:55px;
-		width:600px;
+		max-width:600px;
 		text-transform: uppercase;
 	}
 }
@@ -43,21 +47,13 @@ body {
 	background-size: cover;	
 	padding-top: 100px;
 
-	h1 {
-		font-size: 80px;
-	}
-
-	h2 {
-	font-size: 20px;
-	}
-
 	form {
 		margin-top: 40px;
 	}
 }
 
 .problem-section {
-	height: 400px;
+	display: none;
 	background: white;
 
 	.monster {
@@ -115,10 +111,14 @@ body {
 
 .badge-wrapper {
 	margin: 30px 0;
+
+	img {
+		width: 100%;
+		max-width: 140px;
+	}
 }
 
 .testmonial-section {
-	height: 350px;
 	font-size: 20px;
 	color: rgb(122, 122, 122);
 	padding-top: 50px;
@@ -130,23 +130,29 @@ body {
 		line-height: 43px;
 	}
 
-	.faces-wrapper {
-		width: 390px;
+	.face {
+		width: 120px;
+		margin: 5px;
+	}
 
+	.hidden-sm, .hidden-md, .hidden-lg {
 		.face {
-			width: 120px;
-			margin: 5px;
+			opacity: 1;
+		}
+	}
+
+	.hidden-xs {
+		.face {
 			opacity: 0.5;
 
 			&.selected {
 				opacity: 1;
 			}
 		}
-	}	
+	}
 }
 
 .bottom-email-section {
-	height: 400px;
 	background: 
 	  linear-gradient(
 	      rgba(64, 163, 163, 0.45), 
