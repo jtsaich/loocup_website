@@ -8,11 +8,22 @@ $default-blue: #0096D6;
 
 body {
 	font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "Arial", sans-serif;
-	color: $default-blue;
+	font-size: 18px;
+	color: black;
 }
 
 h1 {
 	font-size: 4em;
+	color: white;
+}
+
+h2 {
+	font-size: 36px;
+	color: $default-blue;
+}
+
+h3 {
+	color: $default-blue;
 }
 
 .white {
@@ -38,13 +49,31 @@ h1 {
 	margin-top: 10px;
 }
 
-.landing-section {
+.landing-bg-shade {
+	position: fixed;
 	height: 780px;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.landing-bg {
+	position: fixed;
+	height: 780px;
+
 	background: url('../images/landing_bg.png') no-repeat top center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;	
+
+	-webkit-filter: blur(10px);
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);
+}
+
+.landing-section {
+	height: 780px;
 	padding-top: 100px;
 
 	form {
@@ -83,11 +112,18 @@ h1 {
 }
 
 .section-wrapper {
-	padding: 50px 0;
+	background: white;
+	padding: 100px 0;
+
+	&.brown-bg {
+		background: #f1e3c5;
+		border-top: 1px solid #e6cc96;
+		border-bottom: 1px solid #c3942f;
+	}
 }
 
 .step-wrapper {
-	margin: 50px 0;
+	margin: 50px 0 0 0;
 
 	.step-icon {
 		position: relative;
@@ -120,13 +156,15 @@ h1 {
 
 .testmonial-section {
 	font-size: 20px;
-	color: rgb(122, 122, 122);
 	padding-top: 50px;
-	margin: 28px auto 34px;
+
+	h3 {
+		color: #222;
+	}
 
 	.author {
 		font-size: 20px;
-		color: $default-blue;
+		color: #222;
 		line-height: 43px;
 	}
 
@@ -153,16 +191,14 @@ h1 {
 }
 
 .bottom-email-section {
-	background: 
-	  linear-gradient(
-	      rgba(64, 163, 163, 0.45), 
-	      rgba(64, 163, 163, 0.45)
-    	), url('../images/landing_bg.png') center bottom;
+	padding: 50px 0;
+	background: #004a70;
 }
 
 footer {
 	height: 60px;
-	background-color: #0096D6;
+	background-color: #555;
+	border-top: 1px solid #777;
 
 
 	.social-icon {
