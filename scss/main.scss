@@ -128,21 +128,18 @@ h3 {
 	.step-icon {
 		position: relative;
 		left: -8px;
+		max-width: 160px;
 	}
 }
 
 .friends-img {
 	margin-top: 80px;
-	width: 100%;
-}
-
-.relationships-img {
-	width: 100%;	
+	width: 80%;
 }
 
 .discover-img {
 	margin-top: 30px;
-	width: 100%;
+	width: 80%;
 }
 
 .badge-wrapper {

@@ -8209,16 +8209,21 @@ button.close {
 
 /* line 6, ../scss/_navbar.scss */
 .navbar-brand {
-  padding: 5px 0;
-  font-size: 35px;
+  padding: 15px 0;
 }
-/* line 7, ../scss/_navbar.scss */
-.navbar-brand > img {
-  height: 60px;
+/* line 9, ../scss/_navbar.scss */
+.navbar-brand .logo-brand {
+  height: 44px;
+  display: inline-block;
+  margin: 0 5px;
+}
+/* line 15, ../scss/_navbar.scss */
+.navbar-brand .logo-text {
+  height: 36px;
   display: inline-block;
 }
 
-/* line 17, ../scss/_navbar.scss */
+/* line 23, ../scss/_navbar.scss */
 .nav_waitlist_button {
   padding: 10 10px;
   position: absolute;
@@ -8410,81 +8415,77 @@ h3 {
 .step-wrapper .step-icon {
   position: relative;
   left: -8px;
+  max-width: 160px;
 }
 
-/* line 134, ../scss/main.scss */
+/* line 135, ../scss/main.scss */
 .friends-img {
   margin-top: 80px;
-  width: 100%;
+  width: 80%;
 }
 
-/* line 139, ../scss/main.scss */
-.relationships-img {
-  width: 100%;
-}
-
-/* line 143, ../scss/main.scss */
+/* line 140, ../scss/main.scss */
 .discover-img {
   margin-top: 30px;
-  width: 100%;
+  width: 80%;
 }
 
-/* line 148, ../scss/main.scss */
+/* line 145, ../scss/main.scss */
 .badge-wrapper {
   margin: 30px 0;
 }
-/* line 151, ../scss/main.scss */
+/* line 148, ../scss/main.scss */
 .badge-wrapper img {
   width: 100%;
   max-width: 140px;
 }
 
-/* line 157, ../scss/main.scss */
+/* line 154, ../scss/main.scss */
 .testmonial-section {
   font-size: 20px;
   padding-top: 50px;
 }
-/* line 161, ../scss/main.scss */
+/* line 158, ../scss/main.scss */
 .testmonial-section h3 {
   color: #222;
 }
-/* line 165, ../scss/main.scss */
+/* line 162, ../scss/main.scss */
 .testmonial-section .author {
   font-size: 20px;
   color: #222;
   line-height: 43px;
 }
-/* line 171, ../scss/main.scss */
+/* line 168, ../scss/main.scss */
 .testmonial-section .face {
   width: 120px;
   margin: 5px;
 }
-/* line 177, ../scss/main.scss */
+/* line 174, ../scss/main.scss */
 .testmonial-section .hidden-sm .face, .testmonial-section .hidden-md .face, .testmonial-section .hidden-lg .face {
   opacity: 1;
 }
-/* line 183, ../scss/main.scss */
+/* line 180, ../scss/main.scss */
 .testmonial-section .hidden-xs .face {
   opacity: 0.5;
 }
-/* line 186, ../scss/main.scss */
+/* line 183, ../scss/main.scss */
 .testmonial-section .hidden-xs .face.selected {
   opacity: 1;
 }
 
-/* line 193, ../scss/main.scss */
+/* line 190, ../scss/main.scss */
 .bottom-email-section {
   padding: 50px 0;
   background: #004a70;
 }
 
-/* line 198, ../scss/main.scss */
+/* line 195, ../scss/main.scss */
 footer {
   height: 60px;
   background-color: #555;
   border-top: 1px solid #777;
 }
-/* line 204, ../scss/main.scss */
+/* line 201, ../scss/main.scss */
 footer .social-icon {
   margin-top: 10px;
   margin-right: 40px;
