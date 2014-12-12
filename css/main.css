@@ -5589,8 +5589,8 @@ tbody.collapse.in {
 }
 /* line 396, ../libraries/bootstrap-sass-3.3.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default {
-  background-color: #f2f4f7;
-  border-color: #dde3ea;
+  background-color: rgba(242, 244, 247, 0.9);
+  border-color: rgba(221, 227, 234, 0.9);
 }
 /* line 400, ../libraries/bootstrap-sass-3.3.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
@@ -5617,7 +5617,7 @@ tbody.collapse.in {
 /* line 424, ../libraries/bootstrap-sass-3.3.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #555;
-  background-color: #dde3ea;
+  background-color: rgba(221, 227, 234, 0.9);
 }
 /* line 432, ../libraries/bootstrap-sass-3.3.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
@@ -5639,11 +5639,11 @@ tbody.collapse.in {
 /* line 452, ../libraries/bootstrap-sass-3.3.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #dde3ea;
+  border-color: rgba(221, 227, 234, 0.9);
 }
 /* line 461, ../libraries/bootstrap-sass-3.3.0/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #dde3ea;
+  background-color: rgba(221, 227, 234, 0.9);
   color: #555;
 }
 @media (max-width: 767px) {
@@ -5659,7 +5659,7 @@ tbody.collapse.in {
   /* line 481, ../libraries/bootstrap-sass-3.3.0/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #555;
-    background-color: #dde3ea;
+    background-color: rgba(221, 227, 234, 0.9);
   }
   /* line 489, ../libraries/bootstrap-sass-3.3.0/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
