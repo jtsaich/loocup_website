@@ -96,6 +96,61 @@
   -o-animation: icons 125s linear infinite -50s;
   animation: icons 125s linear infinite -50s;
 }
+.details .between .icon.bar {
+  -webkit-animation: icons 125s linear infinite -55s;
+  -moz-animation: icons 125s linear infinite -55s;
+  -o-animation: icons 125s linear infinite -55s;
+  animation: icons 125s linear infinite -55s;
+}
+.details .between .icon.baseball {
+  -webkit-animation: icons 125s linear infinite -60s;
+  -moz-animation: icons 125s linear infinite -60s;
+  -o-animation: icons 125s linear infinite -60s;
+  animation: icons 125s linear infinite -60s;
+}
+.details .between .icon.biking {
+  -webkit-animation: icons 125s linear infinite -65s;
+  -moz-animation: icons 125s linear infinite -65s;
+  -o-animation: icons 125s linear infinite -65s;
+  animation: icons 125s linear infinite -65s;
+}
+.details .between .icon.bolwing {
+  -webkit-animation: icons 125s linear infinite -70s;
+  -moz-animation: icons 125s linear infinite -70s;
+  -o-animation: icons 125s linear infinite -70s;
+  animation: icons 125s linear infinite -70s;
+}
+.details .between .icon.movie {
+  -webkit-animation: icons 125s linear infinite -75s;
+  -moz-animation: icons 125s linear infinite -75s;
+  -o-animation: icons 125s linear infinite -75s;
+  animation: icons 125s linear infinite -75s;
+}
+.details .between .icon.shopping {
+  -webkit-animation: icons 125s linear infinite -80s;
+  -moz-animation: icons 125s linear infinite -80s;
+  -o-animation: icons 125s linear infinite -80s;
+  animation: icons 125s linear infinite -80s;
+}
+.details .between .icon.sightsee {
+  -webkit-animation: icons 125s linear infinite -85s;
+  -moz-animation: icons 125s linear infinite -85s;
+  -o-animation: icons 125s linear infinite -85s;
+  animation: icons 125s linear infinite -85s;
+}
+.details .between .icon.boardgame {
+  -webkit-animation: icons 125s linear infinite -90s;
+  -moz-animation: icons 125s linear infinite -90s;
+  -o-animation: icons 125s linear infinite -90s;
+  animation: icons 125s linear infinite -90s;
+}
+.details .between .icon.weightlift {
+  -webkit-animation: icons 125s linear infinite -95s;
+  -moz-animation: icons 125s linear infinite -95s;
+  -o-animation: icons 125s linear infinite -95s;
+  animation: icons 125s linear infinite -95s;
+}
+
 .details .between .icon.coffee:before {
   background: url('/images/activity/Coffee.png');
   width: 130px;
@@ -104,63 +159,117 @@
 }
 .details .between .icon.cook:before {
   background: url('/images/activity/Cook.png');
-  width: 80px;
-  height: 80px;
-  background-size: 80px 80px;
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
 }
 .details .between .icon.drawing:before {
   background: url('/images/activity/Draw.png');
-  width: 80px;
-  height: 80px;
-  background-size: 80px 80px;
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
 }
 .details .between .icon.eat:before {
   background: url('/images/activity/Eat.png');
-  width: 80px;
-  height: 80px;
-  background-size: 80px 80px;
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
 }
 .details .between .icon.football:before {
   background: url('/images/activity/Football.png');
-  width: 80px;
-  height: 80px;
-  background-size: 80px 80px;
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
 }
 .details .between .icon.videogames:before {
   background: url('/images/activity/Videogame.png');
-  width: 80px;
-  height: 80px;
-  background-size: 80px 80px;
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
 }
 .details .between .icon.park:before {
   background: url('/images/activity/Park.png');
-  width: 80px;
-  height: 80px;
-  background-size: 80px 80px;
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
 }
 .details .between .icon.karaoke:before {
   background: url('/images/activity/Karaoke.png');
-  width: 80px;
-  height: 80px;
-  background-size: 80px 80px;
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
 }
 .details .between .icon.skydive:before {
-  background: url('/images/activity/Skydive.png');
-  width: 80px;
-  height: 80px;
-  background-size: 80px 80px;
+  background: url('/images/activity/SkyDive.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
 }
 .details .between .icon.study:before {
   background: url('/images/activity/Study.png');
-  width: 80px;
-  height: 80px;
-  background-size: 80px 80px;
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
 }
 .details .between .icon.swim:before {
   background: url('/images/activity/Swim.png');
-  width: 80px;
-  height: 80px;
-  background-size: 80px 80px;
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.bar:before {
+  background: url('/images/activity/Bar.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.baseball:before {
+  background: url('/images/activity/Baseball.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.biking:before {
+  background: url('/images/activity/Biking.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.bowling:before {
+  background: url('/images/activity/Bowling.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.movie:before {
+  background: url('/images/activity/Movie.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.shopping:before {
+  background: url('/images/activity/Shopping.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.sightsee:before {
+  background: url('/images/activity/Sightsee.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.boardgame:before {
+  background: url('/images/activity/BoardGame.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.weightlift:before {
+  background: url('/images/activity/WeightLift.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
 }
 .details .between .icon.no-font:before {
   content: "";
