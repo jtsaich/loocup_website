@@ -8299,12 +8299,12 @@ h1 {
 /* line 18, ../scss/main.scss */
 h2 {
   font-size: 36px;
-  color: #0096D6;
+  color: rgb(253, 190, 77);
 }
 
 /* line 23, ../scss/main.scss */
 h3 {
-  color: #0096D6;
+  color: rgb(253, 190, 77);
 }
 
 /* line 27, ../scss/main.scss */
@@ -8400,11 +8400,20 @@ h3 {
   background: white;
   padding: 100px 0;
 }
+
 /* line 116, ../scss/main.scss */
-.section-wrapper.brown-bg {
-  background: #f1e3c5;
-  border-top: 1px solid #e6cc96;
-  border-bottom: 1px solid #c3942f;
+.gamify-section {
+  background-color:#F2F2F2;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.section-wrapper .testmonial-section {
+  background-color: white;
+}
+
+.section-wrapper .relationship-section {
+  background-color: white;
 }
 
 /* line 123, ../scss/main.scss */
