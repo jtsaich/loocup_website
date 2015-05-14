@@ -4,7 +4,7 @@
 
 .flowsection {
   background: white;
-  height: 500px;
+  height: 200px;
 }
 [data-icon]:before {
   font-family: 'icons';
@@ -18,7 +18,8 @@
 }
 .details .between .icons {
   width: 4800px;
-  height: 120px;
+  height: 240px;
+  padding: 40px 0;
 }
 .details .between .icon {
   float: left;
@@ -28,7 +29,7 @@
   font-family: 'din-medium', sans-serif;
   color: #979797;
   position: absolute;
-  line-height: 210px;
+  text-align: center;
 }
 .details .between .icon.coffee {
   -webkit-animation: icons 125s linear infinite 0s;
