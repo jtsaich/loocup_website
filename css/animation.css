@@ -4,8 +4,12 @@
 
 .flowsection {
   background: white;
-  height: 200px;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  overflow-x: hidden;
 }
+
 [data-icon]:before {
   font-family: 'icons';
   content: attr(data-icon);
@@ -16,6 +20,13 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
+
+.details .between {
+  width: 120%;
+  overflow: hidden;
+  margin: 0 -200px;
+}
+
 .details .between .icons {
   width: 4800px;
   height: 240px;
@@ -30,7 +41,9 @@
   color: #979797;
   position: absolute;
   text-align: center;
+  line-height: 292px;
 }
+
 .details .between .icon.coffee {
   -webkit-animation: icons 125s linear infinite 0s;
   -moz-animation: icons 125s linear infinite 0s;
@@ -115,7 +128,7 @@
   -o-animation: icons 125s linear infinite -65s;
   animation: icons 125s linear infinite -65s;
 }
-.details .between .icon.bolwing {
+.details .between .icon.bowling {
   -webkit-animation: icons 125s linear infinite -70s;
   -moz-animation: icons 125s linear infinite -70s;
   -o-animation: icons 125s linear infinite -70s;
