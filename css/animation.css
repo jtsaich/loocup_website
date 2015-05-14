@@ -1,0 +1,204 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/* line 9, ../libraries/bootstrap-sass-3.3.0/assets/stylesheets/bootstrap/_normalize.scss */
+
+.flowsection {
+  background: white;
+  height: 500px;
+}
+[data-icon]:before {
+  font-family: 'icons';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.details .between .icons {
+  width: 4800px;
+  height: 120px;
+}
+.details .between .icon {
+  float: left;
+  width: 200px;
+  height: 120px;
+  font-size: 20px;
+  font-family: 'din-medium', sans-serif;
+  color: #979797;
+  position: absolute;
+  line-height: 210px;
+}
+.details .between .icon.coffee {
+  -webkit-animation: icons 125s linear infinite 0s;
+  -moz-animation: icons 125s linear infinite 0s;
+  -o-animation: icons 125s linear infinite 0s;
+  animation: icons 125s linear infinite 0s;
+}
+.details .between .icon.cook {
+  -webkit-animation: icons 125s linear infinite -5s;
+  -moz-animation: icons 125s linear infinite -5s;
+  -o-animation: icons 125s linear infinite -5s;
+  animation: icons 125s linear infinite -5s;
+}
+.details .between .icon.drawing {
+  -webkit-animation: icons 125s linear infinite -10s;
+  -moz-animation: icons 125s linear infinite -10s;
+  -o-animation: icons 125s linear infinite -10s;
+  animation: icons 125s linear infinite -10s;
+}
+.details .between .icon.eat {
+  -webkit-animation: icons 125s linear infinite -15s;
+  -moz-animation: icons 125s linear infinite -15s;
+  -o-animation: icons 125s linear infinite -15s;
+  animation: icons 125s linear infinite -15s;
+}
+.details .between .icon.football {
+  -webkit-animation: icons 125s linear infinite -20s;
+  -moz-animation: icons 125s linear infinite -20s;
+  -o-animation: icons 125s linear infinite -20s;
+  animation: icons 125s linear infinite -20s;
+}
+.details .between .icon.videogames {
+  -webkit-animation: icons 125s linear infinite -25s;
+  -moz-animation: icons 125s linear infinite -25s;
+  -o-animation: icons 125s linear infinite -25s;
+  animation: icons 125s linear infinite -25s;
+}
+.details .between .icon.park {
+  -webkit-animation: icons 125s linear infinite -30s;
+  -moz-animation: icons 125s linear infinite -30s;
+  -o-animation: icons 125s linear infinite -30s;
+  animation: icons 125s linear infinite -30s;
+}
+.details .between .icon.karaoke {
+  -webkit-animation: icons 125s linear infinite -35s;
+  -moz-animation: icons 125s linear infinite -35s;
+  -o-animation: icons 125s linear infinite -35s;
+  animation: icons 125s linear infinite -35s;
+}
+.details .between .icon.skydive {
+  -webkit-animation: icons 125s linear infinite -40s;
+  -moz-animation: icons 125s linear infinite -40s;
+  -o-animation: icons 125s linear infinite -40s;
+  animation: icons 125s linear infinite -40s;
+}
+.details .between .icon.study {
+  -webkit-animation: icons 125s linear infinite -45s;
+  -moz-animation: icons 125s linear infinite -45s;
+  -o-animation: icons 125s linear infinite -45s;
+  animation: icons 125s linear infinite -45s;
+}
+.details .between .icon.swim {
+  -webkit-animation: icons 125s linear infinite -50s;
+  -moz-animation: icons 125s linear infinite -50s;
+  -o-animation: icons 125s linear infinite -50s;
+  animation: icons 125s linear infinite -50s;
+}
+.details .between .icon.coffee:before {
+  background: url('/images/activity/Coffee.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.cook:before {
+  background: url('/images/activity/Cook.png');
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+.details .between .icon.drawing:before {
+  background: url('/images/activity/Draw.png');
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+.details .between .icon.eat:before {
+  background: url('/images/activity/Eat.png');
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+.details .between .icon.football:before {
+  background: url('/images/activity/Football.png');
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+.details .between .icon.videogames:before {
+  background: url('/images/activity/Videogame.png');
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+.details .between .icon.park:before {
+  background: url('/images/activity/Park.png');
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+.details .between .icon.karaoke:before {
+  background: url('/images/activity/Karaoke.png');
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+.details .between .icon.skydive:before {
+  background: url('/images/activity/Skydive.png');
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+.details .between .icon.study:before {
+  background: url('/images/activity/Study.png');
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+.details .between .icon.swim:before {
+  background: url('/images/activity/Swim.png');
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+.details .between .icon.no-font:before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+}
+.details .between .icon.spelling:before {
+  background: url('/images/coffee.png');
+  width: 80px;
+  height: 80px;
+  background-size: 80px 80px;
+}
+.details .between .icon:before {
+  font-size: 80px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+@-webkit-keyframes icons {
+  0% {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(4800px);
+    -moz-transform: translateX(4800px);
+    -o-transform: translateX(4800px);
+    -ms-transform: translateX(4800px);
+    transform: translateX(4800px);
+  }
+}
+
