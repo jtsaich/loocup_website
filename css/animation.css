@@ -327,3 +327,19 @@
   }
 }
 
+@-moz-keyframes icons {
+  0% {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(3600px);
+    -moz-transform: translateX(3600px);
+    -o-transform: translateX(3600px);
+    -ms-transform: translateX(3600px);
+    transform: translateX(3600px);
+  }
+}
