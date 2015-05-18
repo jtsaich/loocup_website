@@ -8569,6 +8569,14 @@ footer .social-icon {
   background-image: linear-gradient(rgba(39,137,228,.12),rgba(39,137,228,.12)),linear-gradient(-180deg,#000 0,#333 100%);
 }
 
-.sidecontent {
-  margin-top: 80px;
+.side-content {
+  padding-top: 300px;
+  font-size: 42px;
+  margin-right:260px;
+}
+
+.side-content-inside{
+  font-size:25px;
+  color:white;  
+  text-align: center!important;
 }
