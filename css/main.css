@@ -4132,7 +4132,7 @@ select[multiple].input-lg,
 /* line 60, ../libraries/bootstrap-sass-3.3.0/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-default {
   color: white;
-  background-color: #35bbff;
+  background-color: rgb(253, 190, 77);
   border-color: #ccc;
 }
 /* line 11, ../libraries/bootstrap-sass-3.3.0/assets/stylesheets/bootstrap/mixins/_buttons.scss */
@@ -8485,7 +8485,12 @@ h3 {
 /* line 188, ../scss/main.scss */
 .bottom-email-section {
   padding: 50px 0;
-  background: rgb(252,172,136);
+  background: rgb(253, 190, 77);
+}
+
+. {
+  padding: 50px 0;
+  background: rgb(253, 190, 77);
 }
 
 /* line 193, ../scss/main.scss */
@@ -8533,3 +8538,4 @@ footer .social-icon {
 .ppConsistencies {
   display: none;
 }
+
