@@ -8403,7 +8403,13 @@ h3 {
 
 /* line 116, ../scss/main.scss */
 .gamify-section {
-  background-color:#F2F2F2;
+  
+  background: -webkit-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #FFEEEE 10%, #DDEFBB 90%); /* W3C */
+              
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
@@ -8485,7 +8491,12 @@ h3 {
 /* line 188, ../scss/main.scss */
 .bottom-email-section {
   padding: 50px 0;
-  background: rgb(253, 190, 77);
+  background: -webkit-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* W3C */
+
 }
 
 . {
@@ -8496,8 +8507,12 @@ h3 {
 /* line 193, ../scss/main.scss */
 footer {
   height: 60px;
-  background-color: #555;
-  border-top: 1px solid #777;
+  background: -webkit-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* W3C */
+        
 }
 /* line 198, ../scss/main.scss */
 footer .footer-text {
