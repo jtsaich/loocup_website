@@ -8492,11 +8492,11 @@ h3 {
 /* line 188, ../scss/main.scss */
 .bottom-email-section {
   padding: 120px 0;
-  background: -webkit-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* W3C */
+  background: -webkit-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* W3C */
 
 }
 
@@ -8508,11 +8508,11 @@ h3 {
 /* line 193, ../scss/main.scss */
 footer {
   height: 60px;
-  background: -webkit-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #DE6262 10%, #FFB88C 90%); /* W3C */
+  background: -webkit-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* W3C */
         
 }
 /* line 198, ../scss/main.scss */
@@ -8524,6 +8524,7 @@ footer .footer-text {
 /* line 203, ../scss/main.scss */
 footer .footer-text a {
   text-decoration: none;
+  color: white;
 }
 /* line 208, ../scss/main.scss */
 footer .social-icon {
@@ -8555,28 +8556,53 @@ footer .social-icon {
   display: none;
 }
 
-.screen-bg {
-  padding: 350px 100px;
-  background-image: url("../images/Loocup_Screen1.jpg");
-  background-size: cover;
-  background-position: 1% 50%;
-  background-repeat: no-repeat;
-}
-
+/* custom stuff, need to move to .scss later */
 .screen-demo {
   padding: 110px 0;
-  background-color: #333;
   background-image: linear-gradient(rgba(39,137,228,.12),rgba(39,137,228,.12)),linear-gradient(-180deg,#000 0,#333 100%);
 }
 
 .side-content {
-  padding-top: 300px;
-  font-size: 42px;
-  margin-right:260px;
+  padding-top: 250px;
+  padding-right: 88px;
+  font-size:28px;
+  color: white;
+  font-weight: 200;
 }
 
-.side-content-inside{
-  font-size:25px;
-  color:white;  
-  text-align: center!important;
+.side-content.right-side {
+  padding-left: 60px;
+}
+
+.side-content h2 {
+  line-height: 1.4;
+}
+
+.iphone-wrapper {
+  position: relative;
+  height: 700px;
+}
+
+.iphone-wrapper > .outer-iphone {
+  position: absolute;
+  width: 360px;
+}
+
+.iphone-wrapper > .slide {
+  top: 105px;
+  left: 29px;
+  width: 302px;
+}
+
+
+.iphone-wrapper > .inner-iphone {
+  position: absolute;
+  top: 85px;
+  left: 22px;
+  width: 316px;
+}
+
+.signup-form textarea {
+  max-width: 600px;
+  margin-bottom: 20px;
 }

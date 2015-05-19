@@ -157,14 +157,36 @@
         </div>
 
 
-        <div class="col-xs-12 screen-demo">
-              <img src="/images/Iphone_Outline1.png" draggable="false" class="col-md-4 col-md-offset-1">
-              <div class="text-center">
-              <h2 class="side-content">Two-Step Scheduling</h2>
-              <h3 class="side-content-inside">Select your available time and activity. We'll do the rest by matching your schedule with your friends'. It's that simple.</h3>
+        <div class="col-xs-12 section-wrapper screen-demo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-md-offset-1">
+                        <div class="iphone-wrapper">
+                            <img class="outer-iphone" src="/images/iphone_outline.png">
+                            <div class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="/images/slide1.png" class="iphone-inner-image" />
+                                    </div>
+                                    <div class="item">
+                                        <img src="/images/slide2.png" class="iphone-inner-image" />
+                                    </div>
+                                    <div class="item">
+                                        <img src="/images/slide3.png" class="iphone-inner-image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6 side-content right-side">
+                        <h2>Two-Step Scheduling</h2>
+                        <p>Select your available time and activity. We'll do the rest by matching your schedule with your friends'. It's that simple.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
 
         <div class="col-xs-12 flowsection">
             <div class="details section">
@@ -207,15 +229,22 @@
         </div>
 
 
-        <div class="col-xs-12 screen-demo">
-              <img src="/images/Iphone1.png" draggable="false" class="col-md-4 col-md-offset-1">
-        </div>
-
-
-        <!--<div class="text-center">
-                <div class="col-xs-12 screen-bg">
+        <div class="col-xs-12 section-wrapper screen-demo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4 col-md-offset-1 col-md-push-6">
+                        <div class="iphone-wrapper">
+                            <img class="outer-iphone" src="/images/iphone.png">
+                            <img class="inner-iphone" src="/images/explore.png">
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6 col-md-pull-4 side-content">
+                        <h2>New Friends, Same Interest</h2>
+                        <p>Meet new friends in your community who share the same interests and schedules with you. How sweet is that?</p>
+                    </div>
                 </div>
-        </div>-->
+            </div>
+        </div>
 
 
         <div class="col-xs-12 gamify-section">
@@ -393,6 +422,10 @@
                 } else if ($(window).scrollTop() <= 500) {
                     $('nav').addClass('hidden');
                 }
+            });
+
+            $('.carousel').carousel({
+                interval: 3800
             });
 
             $('.monster-wrapper').hover(function() {
