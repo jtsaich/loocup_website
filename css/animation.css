@@ -46,124 +46,208 @@
 }
 
 .details .between .icon.coffee {
-  -webkit-animation: icons 100s linear infinite 0s;
-  -moz-animation: icons 100s linear infinite 0s;
-  -o-animation: icons 100s linear infinite 0s;
-  animation: icons 100s linear infinite 0s;
+  -webkit-animation: icons 170s linear infinite 0s;
+  -moz-animation: icons 170s linear infinite 0s;
+  -o-animation: icons 170s linear infinite 0s;
+  animation: icons 170s linear infinite 0s;
 }
 .details .between .icon.cook {
-  -webkit-animation: icons 100s linear infinite -5s;
-  -moz-animation: icons 100s linear infinite -5s;
-  -o-animation: icons 100s linear infinite -5s;
-  animation: icons 100s linear infinite -5s;
+  -webkit-animation: icons 170s linear infinite -5s;
+  -moz-animation: icons 170s linear infinite -5s;
+  -o-animation: icons 170s linear infinite -5s;
+  animation: icons 170s linear infinite -5s;
 }
 .details .between .icon.drawing {
-  -webkit-animation: icons 100s linear infinite -10s;
-  -moz-animation: icons 100s linear infinite -10s;
-  -o-animation: icons 100s linear infinite -10s;
-  animation: icons 100s linear infinite -10s;
+  -webkit-animation: icons 170s linear infinite -10s;
+  -moz-animation: icons 170s linear infinite -10s;
+  -o-animation: icons 170s linear infinite -10s;
+  animation: icons 170s linear infinite -10s;
 }
 .details .between .icon.eat {
-  -webkit-animation: icons 100s linear infinite -15s;
-  -moz-animation: icons 100s linear infinite -15s;
-  -o-animation: icons 100s linear infinite -15s;
-  animation: icons 100s linear infinite -15s;
+  -webkit-animation: icons 170s linear infinite -15s;
+  -moz-animation: icons 170s linear infinite -15s;
+  -o-animation: icons 170s linear infinite -15s;
+  animation: icons 170s linear infinite -15s;
 }
 .details .between .icon.football {
-  -webkit-animation: icons 100s linear infinite -20s;
-  -moz-animation: icons 100s linear infinite -20s;
-  -o-animation: icons 100s linear infinite -20s;
-  animation: icons 100s linear infinite -20s;
+  -webkit-animation: icons 170s linear infinite -20s;
+  -moz-animation: icons 170s linear infinite -20s;
+  -o-animation: icons 170s linear infinite -20s;
+  animation: icons 170s linear infinite -20s;
 }
 .details .between .icon.videogames {
-  -webkit-animation: icons 100s linear infinite -25s;
-  -moz-animation: icons 100s linear infinite -25s;
-  -o-animation: icons 100s linear infinite -25s;
-  animation: icons 100s linear infinite -25s;
+  -webkit-animation: icons 170s linear infinite -25s;
+  -moz-animation: icons 170s linear infinite -25s;
+  -o-animation: icons 170s linear infinite -25s;
+  animation: icons 170s linear infinite -25s;
 }
 .details .between .icon.park {
-  -webkit-animation: icons 100s linear infinite -30s;
-  -moz-animation: icons 100s linear infinite -30s;
-  -o-animation: icons 100s linear infinite -30s;
-  animation: icons 100s linear infinite -30s;
+  -webkit-animation: icons 170s linear infinite -30s;
+  -moz-animation: icons 170s linear infinite -30s;
+  -o-animation: icons 170s linear infinite -30s;
+  animation: icons 170s linear infinite -30s;
 }
 .details .between .icon.karaoke {
-  -webkit-animation: icons 100s linear infinite -35s;
-  -moz-animation: icons 100s linear infinite -35s;
-  -o-animation: icons 100s linear infinite -35s;
-  animation: icons 100s linear infinite -35s;
+  -webkit-animation: icons 170s linear infinite -35s;
+  -moz-animation: icons 170s linear infinite -35s;
+  -o-animation: icons 170s linear infinite -35s;
+  animation: icons 170s linear infinite -35s;
 }
 .details .between .icon.skydive {
-  -webkit-animation: icons 100s linear infinite -40s;
-  -moz-animation: icons 100s linear infinite -40s;
-  -o-animation: icons 100s linear infinite -40s;
-  animation: icons 100s linear infinite -40s;
+  -webkit-animation: icons 170s linear infinite -40s;
+  -moz-animation: icons 170s linear infinite -40s;
+  -o-animation: icons 170s linear infinite -40s;
+  animation: icons 170s linear infinite -40s;
 }
 .details .between .icon.study {
-  -webkit-animation: icons 100s linear infinite -45s;
-  -moz-animation: icons 100s linear infinite -45s;
-  -o-animation: icons 100s linear infinite -45s;
-  animation: icons 100s linear infinite -45s;
+  -webkit-animation: icons 170s linear infinite -45s;
+  -moz-animation: icons 170s linear infinite -45s;
+  -o-animation: icons 170s linear infinite -45s;
+  animation: icons 170s linear infinite -45s;
 }
 .details .between .icon.swim {
-  -webkit-animation: icons 100s linear infinite -50s;
-  -moz-animation: icons 100s linear infinite -50s;
-  -o-animation: icons 100s linear infinite -50s;
-  animation: icons 100s linear infinite -50s;
+  -webkit-animation: icons 170s linear infinite -50s;
+  -moz-animation: icons 170s linear infinite -50s;
+  -o-animation: icons 170s linear infinite -50s;
+  animation: icons 170s linear infinite -50s;
 }
 .details .between .icon.bar {
-  -webkit-animation: icons 100s linear infinite -55s;
-  -moz-animation: icons 100s linear infinite -55s;
-  -o-animation: icons 100s linear infinite -55s;
-  animation: icons 100s linear infinite -55s;
+  -webkit-animation: icons 170s linear infinite -55s;
+  -moz-animation: icons 170s linear infinite -55s;
+  -o-animation: icons 170s linear infinite -55s;
+  animation: icons 170s linear infinite -55s;
 }
 .details .between .icon.baseball {
-  -webkit-animation: icons 100s linear infinite -60s;
-  -moz-animation: icons 100s linear infinite -60s;
-  -o-animation: icons 100s linear infinite -60s;
-  animation: icons 100s linear infinite -60s;
+  -webkit-animation: icons 170s linear infinite -60s;
+  -moz-animation: icons 170s linear infinite -60s;
+  -o-animation: icons 170s linear infinite -60s;
+  animation: icons 170s linear infinite -60s;
 }
 .details .between .icon.biking {
-  -webkit-animation: icons 100s linear infinite -65s;
-  -moz-animation: icons 100s linear infinite -65s;
-  -o-animation: icons 100s linear infinite -65s;
-  animation: icons 100s linear infinite -65s;
+  -webkit-animation: icons 170s linear infinite -65s;
+  -moz-animation: icons 170s linear infinite -65s;
+  -o-animation: icons 170s linear infinite -65s;
+  animation: icons 170s linear infinite -65s;
 }
 .details .between .icon.bowling {
-  -webkit-animation: icons 100s linear infinite -70s;
-  -moz-animation: icons 100s linear infinite -70s;
-  -o-animation: icons 100s linear infinite -70s;
-  animation: icons 100s linear infinite -70s;
+  -webkit-animation: icons 170s linear infinite -70s;
+  -moz-animation: icons 170s linear infinite -70s;
+  -o-animation: icons 170s linear infinite -70s;
+  animation: icons 170s linear infinite -70s;
 }
 .details .between .icon.movie {
-  -webkit-animation: icons 100s linear infinite -75s;
-  -moz-animation: icons 100s linear infinite -75s;
-  -o-animation: icons 100s linear infinite -75s;
-  animation: icons 100s linear infinite -75s;
+  -webkit-animation: icons 170s linear infinite -75s;
+  -moz-animation: icons 170s linear infinite -75s;
+  -o-animation: icons 170s linear infinite -75s;
+  animation: icons 170s linear infinite -75s;
 }
 .details .between .icon.shopping {
-  -webkit-animation: icons 100s linear infinite -80s;
-  -moz-animation: icons 100s linear infinite -80s;
-  -o-animation: icons 100s linear infinite -80s;
-  animation: icons 100s linear infinite -80s;
+  -webkit-animation: icons 170s linear infinite -80s;
+  -moz-animation: icons 170s linear infinite -80s;
+  -o-animation: icons 170s linear infinite -80s;
+  animation: icons 170s linear infinite -80s;
 }
 .details .between .icon.sightsee {
-  -webkit-animation: icons 100s linear infinite -85s;
-  -moz-animation: icons 100s linear infinite -85s;
-  -o-animation: icons 100s linear infinite -85s;
-  animation: icons 100s linear infinite -85s;
+  -webkit-animation: icons 170s linear infinite -85s;
+  -moz-animation: icons 170s linear infinite -85s;
+  -o-animation: icons 170s linear infinite -85s;
+  animation: icons 170s linear infinite -85s;
 }
 .details .between .icon.boardgame {
-  -webkit-animation: icons 100s linear infinite -90s;
-  -moz-animation: icons 100s linear infinite -90s;
-  -o-animation: icons 100s linear infinite -90s;
-  animation: icons 100s linear infinite -90s;
+  -webkit-animation: icons 170s linear infinite -90s;
+  -moz-animation: icons 170s linear infinite -90s;
+  -o-animation: icons 170s linear infinite -90s;
+  animation: icons 170s linear infinite -90s;
 }
 .details .between .icon.weightlift {
-  -webkit-animation: icons 100s linear infinite -95s;
-  -moz-animation: icons 100s linear infinite -95s;
-  -o-animation: icons 100s linear infinite -95s;
-  animation: icons 100s linear infinite -95s;
+  -webkit-animation: icons 170s linear infinite -95s;
+  -moz-animation: icons 170s linear infinite -95s;
+  -o-animation: icons 170s linear infinite -95s;
+  animation: icons 170s linear infinite -95s;
+}
+.details .between .icon.archery {
+  -webkit-animation: icons 170s linear infinite -100s;
+  -moz-animation: icons 170s linear infinite -100s;
+  -o-animation: icons 170s linear infinite -100s;
+  animation: icons 170s linear infinite -100s;
+}
+.details .between .icon.dance {
+  -webkit-animation: icons 170s linear infinite -105s;
+  -moz-animation: icons 170s linear infinite -105s;
+  -o-animation: icons 170s linear infinite -105s;
+  animation: icons 170s linear infinite -105s;
+}
+.details .between .icon.fishing {
+  -webkit-animation: icons 170s linear infinite -110s;
+  -moz-animation: icons 170s linear infinite -110s;
+  -o-animation: icons 170s linear infinite -110s;
+  animation: icons 170s linear infinite -110s;
+}
+.details .between .icon.frisbee {
+  -webkit-animation: icons 170s linear infinite -115s;
+  -moz-animation: icons 170s linear infinite -115s;
+  -o-animation: icons 170s linear infinite -115s;
+  animation: icons 170s linear infinite -115s;
+}
+.details .between .icon.ghost {
+  -webkit-animation: icons 170s linear infinite -120s;
+  -moz-animation: icons 170s linear infinite -120s;
+  -o-animation: icons 170s linear infinite -120s;
+  animation: icons 170s linear infinite -120s;
+}
+.details .between .icon.graffiti {
+  -webkit-animation: icons 170s linear infinite -125s;
+  -moz-animation: icons 170s linear infinite -125s;
+  -o-animation: icons 170s linear infinite -125s;
+  animation: icons 170s linear infinite -125s;
+}
+.details .between .icon.hiking {
+  -webkit-animation: icons 170s linear infinite -130s;
+  -moz-animation: icons 170s linear infinite -130s;
+  -o-animation: icons 170s linear infinite -130s;
+  animation: icons 170s linear infinite -130s;
+}
+.details .between .icon.hunting {
+  -webkit-animation: icons 170s linear infinite -135s;
+  -moz-animation: icons 170s linear infinite -135s;
+  -o-animation: icons 170s linear infinite -135s;
+  animation: icons 170s linear infinite -135s;
+}
+.details .between .icon.language {
+  -webkit-animation: icons 170s linear infinite -140s;
+  -moz-animation: icons 170s linear infinite -140s;
+  -o-animation: icons 170s linear infinite -140s;
+  animation: icons 170s linear infinite -140s;
+}
+.details .between .icon.martial {
+  -webkit-animation: icons 170s linear infinite -145s;
+  -moz-animation: icons 170s linear infinite -145s;
+  -o-animation: icons 170s linear infinite -145s;
+  animation: icons 170s linear infinite -145s;
+}
+.details .between .icon.netflix {
+  -webkit-animation: icons 170s linear infinite -150s;
+  -moz-animation: icons 170s linear infinite -150s;
+  -o-animation: icons 170s linear infinite -150s;
+  animation: icons 170s linear infinite -150s;
+}
+.details .between .icon.photography {
+  -webkit-animation: icons 170s linear infinite -155s;
+  -moz-animation: icons 170s linear infinite -155s;
+  -o-animation: icons 170s linear infinite -155s;
+  animation: icons 170s linear infinite -155s;
+}
+.details .between .icon.smoke {
+  -webkit-animation: icons 170s linear infinite -160s;
+  -moz-animation: icons 170s linear infinite -160s;
+  -o-animation: icons 170s linear infinite -160s;
+  animation: icons 170s linear infinite -160s;
+}
+.details .between .icon.yoga {
+  -webkit-animation: icons 170s linear infinite -165s;
+  -moz-animation: icons 170s linear infinite -165s;
+  -o-animation: icons 170s linear infinite -165s;
+  animation: icons 170s linear infinite -165s;
 }
 
 .details .between .icon.coffee:before {
@@ -286,6 +370,91 @@
   height: 130px;
   background-size: 130px 130px;
 }
+.details .between .icon.archery:before {
+  background: url('/images/activity/Archery.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.dance:before {
+  background: url('/images/activity/Dance.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.fishing:before {
+  background: url('/images/activity/Fishing.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.frisbee:before {
+  background: url('/images/activity/Frisbee.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.ghost:before {
+  background: url('/images/activity/Ghost.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.graffiti:before {
+  background: url('/images/activity/Graffiti.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.hiking:before {
+  background: url('/images/activity/Hiking.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.hunting:before {
+  background: url('/images/activity/Hunting.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.language:before {
+  background: url('/images/activity/Language.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.martial:before {
+  background: url('/images/activity/Martial.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.nextflix:before {
+  background: url('/images/activity/Netflix.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.photography:before {
+  background: url('/images/activity/Photography.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.smoke:before {
+  background: url('/images/activity/Smoke.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+.details .between .icon.yoga:before {
+  background: url('/images/activity/Yoga.png');
+  width: 130px;
+  height: 130px;
+  background-size: 130px 130px;
+}
+
 .details .between .icon.no-font:before {
   content: "";
   display: block;
