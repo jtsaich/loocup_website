@@ -29,7 +29,7 @@
 }
 
 .details .between .icons {
-  width: 3600px;
+  width: 3600;
   height: 240px;
   padding: 40px 0;
 }
@@ -487,11 +487,11 @@
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(3600px);
-    -moz-transform: translateX(3600px);
-    -o-transform: translateX(3600px);
-    -ms-transform: translateX(3600px);
-    transform: translateX(3600px);
+    -webkit-transform: translateX(6000px);
+    -moz-transform: translateX(6000px);
+    -o-transform: translateX(6000px);
+    -ms-transform: translateX(6000px);
+    transform: translateX(6000px);
   }
 }
 
@@ -504,10 +504,10 @@
     transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(3600px);
-    -moz-transform: translateX(3600px);
-    -o-transform: translateX(3600px);
-    -ms-transform: translateX(3600px);
-    transform: translateX(3600px);
+    -webkit-transform: translateX(6000px);
+    -moz-transform: translateX(6000px);
+    -o-transform: translateX(6000px);
+    -ms-transform: translateX(6000px);
+    transform: translateX(6000px);
   }
 }
