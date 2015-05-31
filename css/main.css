@@ -8336,14 +8336,14 @@ h3 {
 
 /* line 50, ../scss/main.scss */
 .landing-bg-shade {
-  position: fixed;
+  position: absolute;
   height: 660px;
   background: rgba(0, 0, 0, 0.2);
 }
 
 /* line 56, ../scss/main.scss */
 .landing-bg {
-  position: fixed;
+  position: absolute;
   height: 660px;
   background: url("../images/landing_bg.png") no-repeat top center;
   -webkit-background-size: cover;
