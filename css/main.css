@@ -8357,6 +8357,27 @@ h3 {
   filter: blur(5px);
 }
 
+.landing-bg2 {
+  position: static;
+  height: 500px;
+  padding: 200px 0;
+  background: url("../images/bg2.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.overview-content{
+  left: 0;
+  padding: 200px;
+}
+
+.overview-content2{
+  position: absolute;
+}
+
+
 /* line 73, ../scss/main.scss */
 .landing-section {
   height: 660px;
