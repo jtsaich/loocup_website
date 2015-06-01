@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Arcon-Regular';
+  src: url('../font/Arcon-Regular.otf');
+}
+
+
+body {
+	font-family: Arcon-Regular;
+}
