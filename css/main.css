@@ -8337,14 +8337,14 @@ h3 {
 /* line 50, ../scss/main.scss */
 .landing-bg-shade {
   position: absolute;
-  height: 660px;
+  height: 800px;
   background: rgba(0, 0, 0, 0.2);
 }
 
 /* line 56, ../scss/main.scss */
 .landing-bg {
   position: absolute;
-  height: 660px;
+  height: 800px;
   background: url("../images/landing_bg.png") no-repeat top center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -8380,8 +8380,8 @@ h3 {
 
 /* line 73, ../scss/main.scss */
 .landing-section {
-  height: 660px;
-  padding-top: 60px;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 /* line 77, ../scss/main.scss */
 .landing-section form {
@@ -8528,7 +8528,7 @@ h3 {
 
 /* line 193, ../scss/main.scss */
 footer {
-  height: 60px;
+  padding-bottom: 30px;
   background: -webkit-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* Chrome 10+, Saf5.1+ */
   background:    -moz-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* FF3.6+ */
   background:     -ms-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* IE10 */
