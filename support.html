@@ -4,44 +4,88 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Loocup</title>
-        <!-- Facebook OpenGraph metas -->
-        <meta property="og:title" content="Loocup" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://www.loocup.co" />
-        <meta property="og:image" content="http://www.loocup.co/images/logo_complete.png" />
-        <meta property="og:description" content="Socialize Different" />
-        <meta name="description" content="Socialize Different">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-        <link rel="stylesheet" href="css/jquery-ui.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font.css">
         <link rel="stylesheet" href="css/animation.css">
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-        <link rel="icon" href="/favicon.ico">
+
+        <!-- all favicon metas-->
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Facebook OpenGraph metas -->
+        <meta property="og:url" content="http://www.loocup.co" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Loocup - Socialize Different" />
+        <meta property="og:description" content="Loocup is a fun way to connect with new and interesting people around your community based on your availability and interests. Loocup is for people who like to plan spontaneous activities with both new and old friends. Loocup allows you to easily manage your schedules with your friends to find time to do things." />
+        <meta property="og:image" content="http://www.loocup.co/images/logo.png" />
     </head>
     <body>
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand" href="/">
-                        <img class="logo-brand" src="/images/logo.png">
-                        <img class="logo-text" src="/images/logo_text.png">
-                    </a>
+        <div id="main-wrapper">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/">
+                            <img class="logo-brand" src="/images/logo.png">
+                            <img class="logo-text" src="/images/logo_text.png">
+                        </a>
+                    </div>
                 </div>
-                <a class="btn btn-default navbar-btn navbar-right go-to-bottom" href="/index">Home</a>
+            </nav>
+            <h2 align="center">Contact Us</h2>
+            <div class="col-xs-12 text-center">
+                <form class="email" action="mailer.php" method="post">
+                    <h3 align="center">What seems to be the problem?</h3>
+                    <div class="form-group clearfix">
+                        <div class="col-xs-12 col-md-6 col-md-offset-3">
+                            <textarea class="form-control center-block" rows="4" cols="50" required="required" placeholder="It all started when..."></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group clearfix">
+                        <div class="col-xs-12 col-md-6 col-md-offset-3">
+                            <input type="email" value="" name="EMAIL" class="form-control center-block" placeholder="Email" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        </div>
+                    </div>
+                    <div class="col-xs-12">
+                    <input type="submit" value="Submit" name="subscribe" class="btn btn-lg btn-default center-block btn-get-invited-lg"></div>
+                </form>
             </div>
-        </nav>
-        <br></br><br></br>
-        <h2 align="center">Contact Us</h2>
-        <div class="col-xs-12 text-center">
-            <form class="email" action="mailer.php" method="post">
-                <h3 align="center">What seems to be the problem?</h3>
-                <textarea class="form-control-support center-block" rows="4" cols="50" required="required" placeholder="It all started when..."></textarea>
-                <input type="email" value="" name="EMAIL" class="form-control-support-email center-block" placeholder="Email" required>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div class="clear"><input type="submit" value="Submit" name="subscribe" class="btn btn-lg btn-default center-block btn-get-invited-lg"></div>
-            </form>
+
+            <footer class="col-xs-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 footer-text">
+                            Loocup &copy; 2015 | <a href="/support">Support</a> | <a href="/privacy">Privacy</a> | <a href="/tos">Terms of Use</a> | <a href="/arbitration">Arbitration</a>
+                        </div>
+                        <div class="col-xs-6 hide">
+                            <a target="_blank" href="https://twitter.com/tweetloocup"><img class="pull-right social-icon" src="images/twitter.png" /></a>
+                            <a target="_blank" href="https://www.facebook.com/loocupapp?ref=bookmarks"><img class="pull-right social-icon" src="images/facebook.png" /></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </body>
 </html>

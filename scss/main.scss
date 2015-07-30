@@ -1,13 +1,31 @@
-
 @import "variables";
-@import "../libraries/bootstrap-sass-3.3.0/assets/stylesheets/bootstrap";
+@import "bootstrap";
+
 @import "navbar";
-@import "flip";
+
+html {
+	height: 100%;
+}
 
 body {
+	height: 100%;
 	font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "Arial", sans-serif;
 	font-size: 18px;
 	color: black;
+	padding-top: 100px;
+
+	&.home {
+		padding-top: 0;
+	}
+}
+
+#main-wrapper {
+	@include clearfix;
+
+	min-height: 100%;
+	height: auto;
+	position: relative;
+	padding-bottom: 60px;
 }
 
 h1 {
@@ -17,11 +35,11 @@ h1 {
 
 h2 {
 	font-size: 36px;
-	color: $default-blue;
+	color: $primary-color;
 }
 
 h3 {
-	color: $default-blue;
+	color: $primary-color;
 }
 
 .white {
@@ -43,19 +61,20 @@ h3 {
 	height:60px;
 	font-size: 20px;
 	font-weight: 500;
+	line-height: 1.8;
 	text-transform: uppercase;
-	margin-top: 10px;
+	margin-top: 50px;
 }
 
 .landing-bg-shade {
-	position: fixed;
-	height: 660px;
+	position: absolute;
+	height: 800px;
 	background: rgba(0, 0, 0, 0.2);
 }
 
 .landing-bg {
-	position: fixed;
-	height: 660px;
+	position: absolute;
+	height: 800px;
 
 	background: url('../images/landing_bg.png') no-repeat top center;
 	-webkit-background-size: cover;
@@ -76,36 +95,6 @@ h3 {
 
 	form {
 		margin-top: 40px;
-	}
-}
-
-.problem-section {
-	display: none;
-	background: white;
-
-	.monster {
-		padding-top: 30px;
-		height: 150px;
-	}
-
-	.monsters-text1 {
-		padding-top: 20px;
-		font-size: 25px;
-		color: $default-blue;
-	}
-
-
-	.monsters-text2 {
-		padding-top: 20px;
-		font-size: 25px;
-		color: $default-blue;
-	}
-
-
-	.monsters-text3 {
-		padding-top: 20px;
-		font-size: 25px;
-		color: $default-blue;
 	}
 }
 
@@ -150,8 +139,10 @@ h3 {
 }
 
 .testmonial-section {
+	background-image: linear-gradient(-180deg,#EDF1F7 0,rgba(255,255,255,0) 100%);
+	background-color: #fff;
 	font-size: 20px;
-	padding-top: 50px;
+	padding: 80px 0;
 
 	h3 {
 		color: #222;
@@ -187,13 +178,21 @@ h3 {
 
 .bottom-email-section {
 	padding: 50px 0;
-	background: #004a70;
+	padding: 120px 0;
+	background: -webkit-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* FF3.6+ */
+	background:     -ms-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* IE10 */
+	background:      -o-linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* Opera 11.10+ */
+	background:         linear-gradient(90deg, #F26B52 20%, #FAC2BB 100%); /* W3C */
+	background: #FD6F55;
+
 }
 
 footer {
+	position: absolute !important;
+	bottom: 0;
 	height: 60px;
-	background-color: #555;
-	border-top: 1px solid #777;
+	background: #FD6F55;
 
 	.footer-text {
 		font-size: 12px;
@@ -202,6 +201,7 @@ footer {
 
 		a {
 			text-decoration: none;
+			color: white;
 		}
 	}
 
@@ -231,4 +231,109 @@ footer {
 .ppConsistencies {
     display: none;
 }
+
+
+
+/* custom stuff, need to move to .scss later */
+.screen-demo {
+  padding: 110px 0;
+  background-image: linear-gradient(rgba(39,137,228,.12),rgba(39,137,228,.12)),linear-gradient(-180deg,#000 0,#333 100%);
+}
+
+.side-content {
+  padding-top: 250px;
+  padding-right: 88px;
+  font-size:28px;
+  color: white;
+  font-weight: 200;
+
+  &.right-side {
+  	padding-left: 60px;
+  }
+
+  @media (max-width: 768px) {
+	font-size: 18px;
+	padding: 10px;
+
+	&.right-side {
+		padding: 10px;
+	}
+	
+  }
+}
+
+.side-content h2 {
+  line-height: 1.4;
+}
+
+.iphone-wrapper {
+  position: relative;
+  height: 700px;
+
+  @media (max-width: 768px) {
+  	height: 500px;
+  }
+
+  	.outer-iphone {
+	  position: absolute;
+	  width: 360px;
+
+	  @media (max-width: 768px) {
+	  	width: 240px;
+	  }
+	}
+
+	.slide {
+	  top: 105px;
+	  left: 29px;
+	  width: 302px;
+
+	  @media (max-width: 768px) {
+	  	top: 72px;
+	    left: 20px;
+	    width: 200px;
+	  }
+	}
+
+	.inner-iphone {
+	  position: absolute;
+	  top: 85px;
+	  left: 22px;
+	  width: 316px;
+
+	  @media (max-width: 768px) {
+	  	top: 58px;
+	    left: 16px;
+	    width: 208px;
+	  }
+	}
+
+}
+
+
+.signup-form textarea {
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.bottom-image-section {
+  height: 500px;
+  padding: 200px 0;
+  background: url("../images/bg2.jpg") no-repeat top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+	h1 { font-size: 3.5em; }
+	h2 { font-size: 1.4em; }
+
+	#main-wrapper {
+		padding-bottom: 0;
+	}
+}
+
+
 
